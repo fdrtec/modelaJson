@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+
+    <head>
+        <meta charset="utf-8">
+        <title>modela Json</title>
+    </head>
+
+    <body>
+        <button onclick="remodelJson(JsonTest)">Modelagem</button>
+        <div id="imprime"></div>
+    </body>
+    <script>
+        var JsonTest = [
+            {
+                "IDELSA": "1000SP",
+                "RCTB8": 1,
+                "CENTROB": "SP",
+                "RCPB1": "20:00",
+                "HOCB75": "trabalho na biblioteca e atividades com professor quimico",
+                "VIFB10A": "três irmãos",
+                "MEDB7_4": "ESPIRONOLACTONA",
+                "RCPBDATAAPINI": " 12MAR14:07:25:00.000",
+                "RCPBDATADIGINI": " 12MAR14:07:57:44.856"
+
+            }
+        ];
+
+        var nJson = [];
+
+        function remodelJson(OriginList) {
+          remodelContentList = []
+            for (var v in OriginList) {
+                console.log(OriginList[v]);                      //recebe e visualiza o json original
+                //console.log(Object.keys(OriginList[v]));       //teste inicial para enxergar a extração do nome das chaves
+                var keyList = Object.keys(OriginList[v]);       //Criação da lista auxiliar com somente o nome das chaves(keyList)
+                for(var v2 in keyList){                  //for que monta o conteudo do novo json
+                //console.log(OriginList[v][keyList[v]]);
+                remodelContentList[keyList[v2]] = { valor : OriginList[v][keyList[v2]], label : null };
+              }
+            }
+            console.log(keyList);
+            console.log(keyList[0]);
+           console.log(remodelContentList);
+
+        }
+        //var teste = "fabiano"; imprime.innerHTML = teste; // teste de escrita inicial
+    </script>
+
+</html>
