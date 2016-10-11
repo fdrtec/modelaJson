@@ -7,7 +7,7 @@
     </head>
 
     <body>
-        <button onclick="remodelJson(JsonTest)">Modelagem</button>
+        <button onclick="remodelJsonFagner(JsonTest)">Modelagem</button>
 
     </body>
     <script>
@@ -73,8 +73,7 @@
             console.log(finalJson);
             //return finalJson;
         }
-        function remodelJson(originListParticipants) {
-
+        function remodelJsonFagner(originListParticipants) {
             originListParticipants.forEach(function(participantData) {
                 var remodelContentList = {};
                 var keyList = Object.keys(participantData); //separa as chaves
@@ -82,7 +81,6 @@
                 keyList.shift(); // exclui o primeiro elemento
 
                 var participantValue = participantData.IDELSA; //separa o valor do participante
-
                 delete participantData.IDELSA;
 
                 for (var keyParticipant in keyList) {
