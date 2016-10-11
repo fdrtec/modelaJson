@@ -4,97 +4,14 @@
     <head>
         <meta charset="utf-8">
         <title>modela Json</title>
+        <script src="modelJson.js"></script>        
+
     </head>
 
     <body>
+
         <button onclick="remodelJson(JsonTest)">Modelagem</button>
-
     </body>
-    <script>
-        var JsonTest = [
-            {
-                "IDELSA": "1000SP",
-                "RCTB8": 1,
-                "CENTROB": "RS",
-                "RCPB1": "20:00",
-                "HOCB75": "trabalho na biblioteca",
-                "dataParticipantIFB10A": "Porto Alegre",
-                "MEDB7_4": "ESPIRONOLACTONA",
-                "RCPBDATAAPINI": " 12MAR14:07:25:00.000",
-                "RCPBDATADIGINI": " 12MAR14:07:57:44.856"
-            }, {
-                "IDELSA": "1001SP",
-                "RCTB8": 2,
-                "CENTROB": "SP",
-                "RCPB1": "20:00",
-                "HOCB75": "atidataParticipantidades com professor quimico",
-                "dataParticipantIFB10A": "três irmãos",
-                "MEDB7_4": "ESPIRONOLACTONA",
-                "RCPBDATAAPINI": " 12MAR14:07:25:00.000",
-                "RCPBDATADIGINI": " 12MAR14:07:57:44.856"
-            }
-        ];
 
-        var finalJson = {};
-        function remodelJson(originListParticipants) {
-            var remodelContentList = {};
-
-            for (participant in originListParticipants) {
-                //console.log(participant);
-                var keyList = Object.keys(originListParticipants[participant]); //separa as chaves
-                keyList.shift(); // exclui o primeiro elemento
-                //console.log(keyList); //teste de visualização
-
-                var listTransition = originListParticipants.shift(); //separa o primeiro objeto
-                // console.log(listTransition); //teste de visualização
-
-                var participantValue = listTransition.IDELSA; //separa o valor do participante
-                console.log(participantValue); //teste de visualização
-
-                delete listTransition.IDELSA;
-                //console.log(listTransition); //teste de visualização
-
-                for (var keyParticipant in keyList) {
-
-                    //console.log(keyList[keyParticipant]);
-
-                    remodelContentList[keyList[keyParticipant]] = {
-                        //valor: originListParticipants[participant][keyList[keyParticipant]],
-                        valor: listTransition[keyList[keyParticipant]],
-                        label: null
-                    };
-                }
-
-                finalJson[participantValue] = remodelContentList;
-
-                //console.log(remodelContentList); console.log(finalJson); remodelJson(originListParticipants);
-
-            }
-            console.log(finalJson);
-            //return finalJson;
-        }
-        function remodelJson(originListParticipants) {
-
-            originListParticipants.forEach(function(participantData) {
-                var remodelContentList = {};
-                var keyList = Object.keys(participantData); //separa as chaves
-
-                keyList.shift(); // exclui o primeiro elemento
-
-                var participantValue = participantData.IDELSA; //separa o valor do participante
-
-                delete participantData.IDELSA;
-
-                for (var keyParticipant in keyList) {
-                    remodelContentList[keyList[keyParticipant]] = {
-                        valor: participantData[keyList[keyParticipant]],
-                        label: null
-                    };
-                }
-                finalJson[participantValue] = remodelContentList;
-            });
-            console.log(finalJson);
-        }
-    </script>
 
 </html>
