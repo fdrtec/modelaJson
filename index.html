@@ -8,27 +8,26 @@
 
     <body>
         <button onclick="remodelJson(JsonTest)">Modelagem</button>
-        <didataParticipant id="imprime"></didataParticipant>
+        
     </body>
     <script>
         var JsonTest = [
             {
                 "IDELSA": "1000SP",
                 "RCTB8": 1,
-                "CENTROB": "SP",
+                "CENTROB": "RS",
                 "RCPB1": "20:00",
-                "HOCB75": "trabalho na biblioteca e atidataParticipantidades com professor quimico",
-                "dataParticipantIFB10A": "três irmãos",
+                "HOCB75": "trabalho na biblioteca",
+                "dataParticipantIFB10A": "Porto Alegre",
                 "MEDB7_4": "ESPIRONOLACTONA",
                 "RCPBDATAAPINI": " 12MAR14:07:25:00.000",
                 "RCPBDATADIGINI": " 12MAR14:07:57:44.856"
-            },
-            {
+            }, {
                 "IDELSA": "1001SP",
-                "RCTB8": 1,
+                "RCTB8": 2,
                 "CENTROB": "SP",
                 "RCPB1": "20:00",
-                "HOCB75": "trabalho na biblioteca e atidataParticipantidades com professor quimico",
+                "HOCB75": "atidataParticipantidades com professor quimico",
                 "dataParticipantIFB10A": "três irmãos",
                 "MEDB7_4": "ESPIRONOLACTONA",
                 "RCPBDATAAPINI": " 12MAR14:07:25:00.000",
@@ -38,98 +37,44 @@
         ];
         finalJson = {};
         function remodelJson(originListParticipants) {
-          remodelContentList = {};
 
-          for(participant in originListParticipants){
-            var keyList = Object.keys(originListParticipants[participant]); //separa as chaves
-            keyList.shift(); // exclui o primeiro elemento
-            //console.log(keyList); //teste de visualização
+                remodelContentList = {};
 
-            listTransition = originListParticipants.shift(); //separa o primeiro objeto
-            // console.log(listTransition); //teste de visualização
+                for (participant in originListParticipants) {
+                    //console.log(participant);
+                    var keyList = Object.keys(originListParticipants[participant]); //separa as chaves
+                    keyList.shift(); // exclui o primeiro elemento
+                    //console.log(keyList); //teste de visualização
 
-            var participantValue = listTransition.IDELSA; //separa o valor do participante
-            // console.log(participantValue); //teste de visualização
+                    listTransition = originListParticipants.shift(); //separa o primeiro objeto
+                    // console.log(listTransition); //teste de visualização
 
-            delete listTransition.IDELSA;
-            console.log(listTransition); //teste de visualização
+                    var participantValue = listTransition.IDELSA; //separa o valor do participante
+                    // console.log(participantValue); //teste de visualização
 
-            for (var keyParticipant in keyList) {
+                    delete listTransition.IDELSA;
+                    //console.log(listTransition); //teste de visualização
 
-                //console.log(keyList[keyParticipant]);
+                    for (var keyParticipant in keyList) {
 
-                remodelContentList[keyList[keyParticipant]] = {
-                    valor: originListParticipants[participant][keyList[keyParticipant]],
-                    label: null
-                };
+                        //console.log(keyList[keyParticipant]);
+
+                        remodelContentList[keyList[keyParticipant]] = {
+                            //valor: originListParticipants[participant][keyList[keyParticipant]],
+                            valor: listTransition[keyList[keyParticipant]],
+                            label: null
+                        };
+                    }
+
+                    finalJson[participantValue] = remodelContentList;
+
+                    //console.log(remodelContentList); console.log(finalJson); remodelJson(originListParticipants);
+
+                }
+                console.log(finalJson);
+                //return finalJson;
             }
 
-            finalJson[participantValue] = remodelContentList;
-
-            //console.log(remodelContentList);
-            console.log(finalJson);
-        }
-
-       }
-
-
-
-          // #################codigo antigo##################
-          //console.log(originListParticipants);
-          //console.log(typeof originListParticipants);
-          //originListParticipants.forEach(observeJson);
-          //for (var dataParticipant in originListParticipants) {
-          // console.log(dataParticipant);
-          //var keyList = Object.keys(originListParticipants[value]);
-          //var keyList = Object.keys(originListParticipants[dataParticipant]);
-          // console.log(keyList);
-          // for (var keyParticipant in keyList) {
-          //   //console.log(keyList[keyParticipant]);
-          //   console.log(originListParticipants[dataParticipant][keyList[dataParticipant]]);
-          // }
-        //}
-
-
-        //remodelContentList = {};
-        //listJsonFinal = {};
-
-        //function remodelJson(originListParticipants) {
-            //console.log(originListParticipants);
-            //console.log(typeof originListParticipants);
-
-            //laco que percorre participante por participante
-            //for (var dataParticipant in originListParticipants) {
-
-                //console.log(originListParticipants[dataParticipant]); //recebe e visualiza o json original
-                //console.log(Object.keys(originListParticipants[dataParticipant]));//teste inicial para enxergar a extração do nome das chaves
-
-                //Criação da lista auxiliar com somente o nome das chaves(keyList)
-                //var keyList = Object.keys(originListParticipants[dataParticipant]);
-
-                //for que monta o conteudo do novo json remodelado usando o array de chaves sicronizado
-                //for (var keyParticipant in keyList) {
-
-                    //console.log(originListParticipants[dataParticipant][keyList[dataParticipant]]);
-
-                    //remodelContentList[keyList[keyParticipant]] = {
-                        //valor: originListParticipants[dataParticipant][keyList[keyParticipant]],
-                        //label: null
-                    //};
-                //}
-                //listJsonFinal[originListParticipants[dataParticipant][keyList[dataParticipant]]]=remodelContentList;
-            //}
-
-            //console.log(listJsonFinal);
-            //visualizações de teste
-            //console.log(keyList);
-            //console.log(keyList[0]);
-            //console.log(remodelContentList);
-            //console.log(listJsonFinal);
-            //console.log(contentJsonFinal);
-            //keyList.forEach(function(a) { console.log(remodelContentList[a]);  });
-
-        //}
-        //dataParticipantar teste = "fabiano"; imprime.innerHTML = teste;
-    </script>
+          </script>
 
 </html>
