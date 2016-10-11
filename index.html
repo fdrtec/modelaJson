@@ -36,35 +36,90 @@
             }
 
         ];
-
-        remodelContentList = {};
-        listJsonFinal = {};
-
+        finalJson = {};
         function remodelJson(originListParticipants) {
+          remodelContentList = {};
+
+          for(participant in originListParticipants){
+            var keyList = Object.keys(originListParticipants[participant]); //separa as chaves
+            keyList.shift(); // exclui o primeiro elemento
+            //console.log(keyList); //teste de visualização
+
+            listTransition = originListParticipants.shift(); //separa o primeiro objeto
+            // console.log(listTransition); //teste de visualização
+
+            var participantValue = listTransition.IDELSA; //separa o valor do participante
+            // console.log(participantValue); //teste de visualização
+
+            delete listTransition.IDELSA;
+            console.log(listTransition); //teste de visualização
+
+            for (var keyParticipant in keyList) {
+
+                //console.log(keyList[keyParticipant]);
+
+                remodelContentList[keyList[keyParticipant]] = {
+                    valor: originListParticipants[participant][keyList[keyParticipant]],
+                    label: null
+                };
+            }
+
+            finalJson[participantValue] = remodelContentList;
+
+            //console.log(remodelContentList);
+            console.log(finalJson);
+        }
+
+       }
+
+
+
+          // #################codigo antigo##################
+          //console.log(originListParticipants);
+          //console.log(typeof originListParticipants);
+          //originListParticipants.forEach(observeJson);
+          //for (var dataParticipant in originListParticipants) {
+          // console.log(dataParticipant);
+          //var keyList = Object.keys(originListParticipants[value]);
+          //var keyList = Object.keys(originListParticipants[dataParticipant]);
+          // console.log(keyList);
+          // for (var keyParticipant in keyList) {
+          //   //console.log(keyList[keyParticipant]);
+          //   console.log(originListParticipants[dataParticipant][keyList[dataParticipant]]);
+          // }
+        //}
+
+
+        //remodelContentList = {};
+        //listJsonFinal = {};
+
+        //function remodelJson(originListParticipants) {
             //console.log(originListParticipants);
             //console.log(typeof originListParticipants);
 
-            for (var dataParticipant in originListParticipants) { //laco que percorre participante por paticipante
-                //console.log(originListParticipants[dataParticipant]); //recebe e visualiza o json original
-                //console.log(Object.keys(originListParticipants[dataParticipant]));   //teste inicial para enxergar a extração do nome das chaves
-                var keyList = Object.keys(originListParticipants[dataParticipant]); //Criação da lista auxiliar com somente o nome das chaves(keyList)
+            //laco que percorre participante por participante
+            //for (var dataParticipant in originListParticipants) {
 
-                for (var keyParticipant in keyList) { //for que monta o conteudo do novo json remodelado usando o array de chaves sicronizado
+                //console.log(originListParticipants[dataParticipant]); //recebe e visualiza o json original
+                //console.log(Object.keys(originListParticipants[dataParticipant]));//teste inicial para enxergar a extração do nome das chaves
+
+                //Criação da lista auxiliar com somente o nome das chaves(keyList)
+                //var keyList = Object.keys(originListParticipants[dataParticipant]);
+
+                //for que monta o conteudo do novo json remodelado usando o array de chaves sicronizado
+                //for (var keyParticipant in keyList) {
 
                     //console.log(originListParticipants[dataParticipant][keyList[dataParticipant]]);
-                    remodelContentList[keyList[keyParticipant]] = {
-                        valor: originListParticipants[dataParticipant][keyList[keyParticipant]],
-                        label: null
-                    };
 
-                }
+                    //remodelContentList[keyList[keyParticipant]] = {
+                        //valor: originListParticipants[dataParticipant][keyList[keyParticipant]],
+                        //label: null
+                    //};
+                //}
+                //listJsonFinal[originListParticipants[dataParticipant][keyList[dataParticipant]]]=remodelContentList;
+            //}
 
-            listJsonFinal[originListParticipants[dataParticipant][keyList[dataParticipant]]]=remodelContentList;
-            }
-
-            console.log(listJsonFinal);
-
-
+            //console.log(listJsonFinal);
             //visualizações de teste
             //console.log(keyList);
             //console.log(keyList[0]);
@@ -73,7 +128,7 @@
             //console.log(contentJsonFinal);
             //keyList.forEach(function(a) { console.log(remodelContentList[a]);  });
 
-        }
+        //}
         //dataParticipantar teste = "fabiano"; imprime.innerHTML = teste;
     </script>
 
