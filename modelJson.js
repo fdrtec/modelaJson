@@ -1,31 +1,19 @@
-var jsonfile = require('jsonfile');
-var file = "Original2Linhas.json";
+//var config =require('./Original2Linhas.json');
+var remodelJsonService = require('./remodel-json-service.js');
 
-jsonfile.readFile(file, function(err, obj) {
-    remodelJson(obj);
-});
+// process.argv.forEach(function(val, index, array) {
+//  console.log(index + ' : ' + val);
+// });
 
-var finalJson = {};
+var src = process.argv[2];
+var dest = process.argv[3];
 
-function remodelJson(originListParticipants) {
+remodelJsonService.remodelJson(src, dest);
 
-    originListParticipants.forEach(function(participantData) {
-        var remodelContentList = {};
-        var keyList = Object.keys(participantData); //separa as chaves
-
-        keyList.shift(); // exclui o primeiro elemento
-
-        var participantValue = participantData.IDELSA; //separa o valor do participante
-
-        delete participantData.IDELSA;
-
-        for (var keyParticipant in keyList) {
-            remodelContentList[keyList[keyParticipant]] = {
-                valor: participantData[keyList[keyParticipant]],
-                label: null
-            };
-        }
-        finalJson[participantValue] = remodelContentList;
-    });
-    console.log(finalJson);
-}
+// var jsonfile = require('jsonfile');
+// var file = "Original2Linhas.json";
+//
+// jsonfile.readFile(file, function(err, obj) {
+//     remodelJson(obj);
+//
+// });

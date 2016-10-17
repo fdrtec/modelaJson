@@ -1,0 +1,5608 @@
+{
+    "1000SP": {
+        "RCTB8": {
+            "valor": 1,
+            "label": null
+        },
+        "CENTROB": {
+            "valor": "SP",
+            "label": null
+        },
+        "IDADEB": {
+            "valor": 64,
+            "label": null
+        },
+        "TCLEB1": {
+            "valor": 1,
+            "label": null
+        },
+        "TCLEB2": {
+            "valor": 1,
+            "label": null
+        },
+        "RCPB1": {
+            "valor": "20:00",
+            "label": null
+        },
+        "RCPB2": {
+            "valor": 0,
+            "label": null
+        },
+        "RCPB6": {
+            "valor": 0,
+            "label": null
+        },
+        "RCPB7": {
+            "valor": 2,
+            "label": null
+        },
+        "RCPB8": {
+            "valor": 1,
+            "label": null
+        },
+        "RCPB13": {
+            "valor": 3,
+            "label": null
+        },
+        "RCPB15": {
+            "valor": 0,
+            "label": null
+        },
+        "RCPB15A": {
+            "valor": null,
+            "label": null
+        },
+        "RCPB15B": {
+            "valor": null,
+            "label": null
+        },
+        "RCPB1A": {
+            "valor": " 7:25",
+            "label": null
+        },
+        "RCPB1B": {
+            "valor": 11,
+            "label": null
+        },
+        "RCPB2Q1": {
+            "valor": null,
+            "label": null
+        },
+        "RCPB2Q3": {
+            "valor": null,
+            "label": null
+        },
+        "RCPB2Q5": {
+            "valor": null,
+            "label": null
+        },
+        "RCPB2QOU": {
+            "valor": null,
+            "label": null
+        },
+        "RCPB2QOUQ": {
+            "valor": ".P",
+            "label": null
+        },
+        "RCPB6A": {
+            "valor": null,
+            "label": null
+        },
+        "RCPB6B": {
+            "valor": ".P",
+            "label": null
+        },
+        "RCPB6C": {
+            "valor": ".P",
+            "label": null
+        },
+        "ANTB1": {
+            "valor": 119,
+            "label": null
+        },
+        "ANTB2": {
+            "valor": 101.5,
+            "label": null
+        },
+        "ANTB3": {
+            "valor": 160,
+            "label": null
+        },
+        "ANTB5": {
+            "valor": 91.949997,
+            "label": null
+        },
+        "ANTB6": {
+            "valor": null,
+            "label": null
+        },
+        "ANTB1ALT": {
+            "valor": 1,
+            "label": null
+        },
+        "ANTB1ALT1": {
+            "valor": 1,
+            "label": null
+        },
+        "ANTB1ALT2": {
+            "valor": 0,
+            "label": null
+        },
+        "ANTB1ALT3": {
+            "valor": 0,
+            "label": null
+        },
+        "ANTB1ALT4": {
+            "valor": 0,
+            "label": null
+        },
+        "ANTB1ALTQOU": {
+            "valor": ".P",
+            "label": null
+        },
+        "ANTB2ALT": {
+            "valor": 0,
+            "label": null
+        },
+        "ANTB2ALT1": {
+            "valor": null,
+            "label": null
+        },
+        "ANTB2ALT2": {
+            "valor": null,
+            "label": null
+        },
+        "ANTB2ALTQOU": {
+            "valor": ".P",
+            "label": null
+        },
+        "ANTB3ALT": {
+            "valor": 1,
+            "label": null
+        },
+        "ANTB3ALT1": {
+            "valor": 1,
+            "label": null
+        },
+        "ANTB3ALT2": {
+            "valor": 1,
+            "label": null
+        },
+        "ANTB3ALT3": {
+            "valor": 0,
+            "label": null
+        },
+        "ANTB3ALTQOU": {
+            "valor": ".P",
+            "label": null
+        },
+        "ANTB3ALT4": {
+            "valor": 0,
+            "label": null
+        },
+        "ANTB3ALT5": {
+            "valor": 0,
+            "label": null
+        },
+        "ANTB3ALT6": {
+            "valor": 0,
+            "label": null
+        },
+        "ANTB5ALT": {
+            "valor": 0,
+            "label": null
+        },
+        "ANTB5ALT1": {
+            "valor": null,
+            "label": null
+        },
+        "ANTB5ALT2": {
+            "valor": null,
+            "label": null
+        },
+        "ANTB5ALT3": {
+            "valor": null,
+            "label": null
+        },
+        "ANTB5ALT4": {
+            "valor": null,
+            "label": null
+        },
+        "ANTB5ALT5": {
+            "valor": null,
+            "label": null
+        },
+        "ANTB5ALTQOU": {
+            "valor": ".P",
+            "label": null
+        },
+        "ANTB6ALT": {
+            "valor": 0,
+            "label": null
+        },
+        "ANTB6ALT1": {
+            "valor": null,
+            "label": null
+        },
+        "ANTB6ALT2": {
+            "valor": null,
+            "label": null
+        },
+        "ANTB6ALT3": {
+            "valor": null,
+            "label": null
+        },
+        "BIOB1": {
+            "valor": 1,
+            "label": null
+        },
+        "BIOB2": {
+            "valor": null,
+            "label": null
+        },
+        "BIOB3": {
+            "valor": null,
+            "label": null
+        },
+        "BIOB4": {
+            "valor": null,
+            "label": null
+        },
+        "BIOB5": {
+            "valor": null,
+            "label": null
+        },
+        "BIOB6": {
+            "valor": null,
+            "label": null
+        },
+        "BIOB7": {
+            "valor": null,
+            "label": null
+        },
+        "BIOB8": {
+            "valor": null,
+            "label": null
+        },
+        "BIOB9": {
+            "valor": null,
+            "label": null
+        },
+        "BIOB7A": {
+            "valor": null,
+            "label": null
+        },
+        "BIOB9ALT": {
+            "valor": null,
+            "label": null
+        },
+        "BIOB9ALT1": {
+            "valor": null,
+            "label": null
+        },
+        "BIOB9ALT2": {
+            "valor": null,
+            "label": null
+        },
+        "BIOB9ALT3": {
+            "valor": null,
+            "label": null
+        },
+        "ECGB1": {
+            "valor": 16,
+            "label": null
+        },
+        "ECGB4": {
+            "valor": 4,
+            "label": null
+        },
+        "ECGB5": {
+            "valor": 0,
+            "label": null
+        },
+        "ECGB6": {
+            "valor": 1,
+            "label": null
+        },
+        "ECGB7": {
+            "valor": 59,
+            "label": null
+        },
+        "ECGBALT": {
+            "valor": 0,
+            "label": null
+        },
+        "ECGBALT1": {
+            "valor": null,
+            "label": null
+        },
+        "ECGBALT2": {
+            "valor": null,
+            "label": null
+        },
+        "ECGBALT3": {
+            "valor": null,
+            "label": null
+        },
+        "ECGBALT4": {
+            "valor": null,
+            "label": null
+        },
+        "ECGBALT5": {
+            "valor": null,
+            "label": null
+        },
+        "ECGBALT5Q": {
+            "valor": ".P",
+            "label": null
+        },
+        "FORB1": {
+            "valor": 0,
+            "label": null
+        },
+        "FORB2": {
+            "valor": 1,
+            "label": null
+        },
+        "FORB1A": {
+            "valor": null,
+            "label": null
+        },
+        "FORBALT": {
+            "valor": 0,
+            "label": null
+        },
+        "FORBALTQ": {
+            "valor": "                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                               P",
+            "label": null
+        },
+        "FORBD1": {
+            "valor": 26,
+            "label": null
+        },
+        "FORBD2": {
+            "valor": 29,
+            "label": null
+        },
+        "FORBD3": {
+            "valor": 35,
+            "label": null
+        },
+        "FORBE1": {
+            "valor": 30,
+            "label": null
+        },
+        "FORBE2": {
+            "valor": 33,
+            "label": null
+        },
+        "FORBE3": {
+            "valor": 31,
+            "label": null
+        },
+        "FORBN": {
+            "valor": 0,
+            "label": null
+        },
+        "FORBN1": {
+            "valor": null,
+            "label": null
+        },
+        "FORBN2": {
+            "valor": null,
+            "label": null
+        },
+        "PASB1": {
+            "valor": 30.6,
+            "label": null
+        },
+        "PASB1M": {
+            "valor": 2,
+            "label": null
+        },
+        "PASB3A": {
+            "valor": 143,
+            "label": null
+        },
+        "PASB3B": {
+            "valor": 141,
+            "label": null
+        },
+        "PASB3BRS": {
+            "valor": 1,
+            "label": null
+        },
+        "PASB3C": {
+            "valor": 134,
+            "label": null
+        },
+        "PASB3METS": {
+            "valor": 1,
+            "label": null
+        },
+        "PASB4A": {
+            "valor": 80,
+            "label": null
+        },
+        "PASB4B": {
+            "valor": 76,
+            "label": null
+        },
+        "PASB4C": {
+            "valor": 78,
+            "label": null
+        },
+        "PASB5A": {
+            "valor": 70,
+            "label": null
+        },
+        "PASB5B": {
+            "valor": 70,
+            "label": null
+        },
+        "PASB5C": {
+            "valor": 70,
+            "label": null
+        },
+        "PASBALT": {
+            "valor": 0,
+            "label": null
+        },
+        "PASBALT1": {
+            "valor": null,
+            "label": null
+        },
+        "PASBALT2": {
+            "valor": null,
+            "label": null
+        },
+        "PASBALT3": {
+            "valor": null,
+            "label": null
+        },
+        "PASBALT4": {
+            "valor": null,
+            "label": null
+        },
+        "PASBALT5": {
+            "valor": null,
+            "label": null
+        },
+        "PASBALT6": {
+            "valor": null,
+            "label": null
+        },
+        "PASBALT7": {
+            "valor": null,
+            "label": null
+        },
+        "PASBALTQOU": {
+            "valor": ".P",
+            "label": null
+        },
+        "CSSB1": {
+            "valor": 0,
+            "label": null
+        },
+        "CSSB2": {
+            "valor": 0,
+            "label": null
+        },
+        "CSSB3": {
+            "valor": 1,
+            "label": null
+        },
+        "CSSB4": {
+            "valor": 0,
+            "label": null
+        },
+        "CSSB5": {
+            "valor": null,
+            "label": null
+        },
+        "CSSB8": {
+            "valor": null,
+            "label": null
+        },
+        "CSSB9": {
+            "valor": null,
+            "label": null
+        },
+        "CSSB10": {
+            "valor": null,
+            "label": null
+        },
+        "CSSB11": {
+            "valor": null,
+            "label": null
+        },
+        "CSSB11QOU": {
+            "valor": ".A",
+            "label": null
+        },
+        "CSSB12": {
+            "valor": 1,
+            "label": null
+        },
+        "CSSB13": {
+            "valor": 0,
+            "label": null
+        },
+        "CSSB16": {
+            "valor": 0,
+            "label": null
+        },
+        "CSSB17": {
+            "valor": 0,
+            "label": null
+        },
+        "CSSB18": {
+            "valor": 0,
+            "label": null
+        },
+        "CSSB19": {
+            "valor": 0,
+            "label": null
+        },
+        "CSSB22": {
+            "valor": null,
+            "label": null
+        },
+        "CSSB23": {
+            "valor": null,
+            "label": null
+        },
+        "CSSB24": {
+            "valor": null,
+            "label": null
+        },
+        "CSSB25": {
+            "valor": null,
+            "label": null
+        },
+        "CSSB26": {
+            "valor": "1",
+            "label": null
+        },
+        "CSSB27": {
+            "valor": "1",
+            "label": null
+        },
+        "CSSB28": {
+            "valor": "1",
+            "label": null
+        },
+        "CSSB29": {
+            "valor": "1",
+            "label": null
+        },
+        "CSSB30": {
+            "valor": "1",
+            "label": null
+        },
+        "CSSB33": {
+            "valor": "3",
+            "label": null
+        },
+        "CSSB34": {
+            "valor": "3",
+            "label": null
+        },
+        "CSSB35": {
+            "valor": "3",
+            "label": null
+        },
+        "CSSB36": {
+            "valor": ".A",
+            "label": null
+        },
+        "CSSB37": {
+            "valor": ".A",
+            "label": null
+        },
+        "CSSB14H": {
+            "valor": 8,
+            "label": null
+        },
+        "CSSB14M": {
+            "valor": 0,
+            "label": null
+        },
+        "CSSB14HORA_INICIO": {
+            "valor": "  8:00",
+            "label": null
+        },
+        "CSSB15H": {
+            "valor": 8,
+            "label": null
+        },
+        "CSSB15M": {
+            "valor": 2,
+            "label": null
+        },
+        "CSSB15HORA_FINAL": {
+            "valor": "  8:02",
+            "label": null
+        },
+        "CSSB19QOU": {
+            "valor": "P",
+            "label": null
+        },
+        "CSSB20H": {
+            "valor": null,
+            "label": null
+        },
+        "CSSB20M": {
+            "valor": null,
+            "label": null
+        },
+        "CSSB20HORA_INICIO": {
+            "valor": null,
+            "label": null
+        },
+        "CSSB21H": {
+            "valor": null,
+            "label": null
+        },
+        "CSSB21M": {
+            "valor": null,
+            "label": null
+        },
+        "CSSB21HORA_FINAL": {
+            "valor": null,
+            "label": null
+        },
+        "CSSB25QOU": {
+            "valor": ".A",
+            "label": null
+        },
+        "CSSB6H": {
+            "valor": null,
+            "label": null
+        },
+        "CSSB6M": {
+            "valor": null,
+            "label": null
+        },
+        "CSSB6HORA_INICIO": {
+            "valor": null,
+            "label": null
+        },
+        "CSSB7H": {
+            "valor": null,
+            "label": null
+        },
+        "CSSB7M": {
+            "valor": null,
+            "label": null
+        },
+        "CSSB7HORA_FINAL": {
+            "valor": null,
+            "label": null
+        },
+        "CURB1": {
+            "valor": "19:00",
+            "label": null
+        },
+        "CURB2": {
+            "valor": " 5:30",
+            "label": null
+        },
+        "CURB3": {
+            "valor": 0,
+            "label": null
+        },
+        "CURB4": {
+            "valor": 1,
+            "label": null
+        },
+        "CURB5": {
+            "valor": 0,
+            "label": null
+        },
+        "CURB6": {
+            "valor": 0,
+            "label": null
+        },
+        "CURB7": {
+            "valor": null,
+            "label": null
+        },
+        "CURB9": {
+            "valor": 1,
+            "label": null
+        },
+        "CURB2A": {
+            "valor": 10,
+            "label": null
+        },
+        "CURB8A": {
+            "valor": 1,
+            "label": null
+        },
+        "CURB8B": {
+            "valor": null,
+            "label": null
+        },
+        "INDCURPEND": {
+            "valor": 0,
+            "label": null
+        },
+        "SONB3": {
+            "valor": 1,
+            "label": null
+        },
+        "SONB4": {
+            "valor": 0,
+            "label": null
+        },
+        "SONB5": {
+            "valor": 0,
+            "label": null
+        },
+        "SONB6": {
+            "valor": 1,
+            "label": null
+        },
+        "SONB7": {
+            "valor": 3,
+            "label": null
+        },
+        "SONB8": {
+            "valor": 3,
+            "label": null
+        },
+        "SONB1H": {
+            "valor": 4,
+            "label": null
+        },
+        "SONB1M": {
+            "valor": 0,
+            "label": null
+        },
+        "SONB2H": {
+            "valor": 8,
+            "label": null
+        },
+        "SONB2M": {
+            "valor": 0,
+            "label": null
+        },
+        "AFIB1": {
+            "valor": 0,
+            "label": null
+        },
+        "AFIB3": {
+            "valor": 0,
+            "label": null
+        },
+        "AFIB5": {
+            "valor": 0,
+            "label": null
+        },
+        "AFIB7": {
+            "valor": 0,
+            "label": null
+        },
+        "AFIB9": {
+            "valor": 5,
+            "label": null
+        },
+        "AFIB10A": {
+            "valor": 20,
+            "label": null
+        },
+        "AFIB11AH": {
+            "valor": 2,
+            "label": null
+        },
+        "AFIB11AM": {
+            "valor": 0,
+            "label": null
+        },
+        "AFIB11AN": {
+            "valor": "0",
+            "label": null
+        },
+        "AFIB11BH": {
+            "valor": null,
+            "label": null
+        },
+        "AFIB11BM": {
+            "valor": null,
+            "label": null
+        },
+        "AFIB11BN": {
+            "valor": ".S",
+            "label": null
+        },
+        "AFIB12AH": {
+            "valor": 2,
+            "label": null
+        },
+        "AFIB12AM": {
+            "valor": 0,
+            "label": null
+        },
+        "AFIB12AN": {
+            "valor": "0",
+            "label": null
+        },
+        "AFIB12BH": {
+            "valor": null,
+            "label": null
+        },
+        "AFIB12BM": {
+            "valor": null,
+            "label": null
+        },
+        "AFIB12BN": {
+            "valor": ".S",
+            "label": null
+        },
+        "AFIB13AH": {
+            "valor": 2,
+            "label": null
+        },
+        "AFIB13AM": {
+            "valor": 30,
+            "label": null
+        },
+        "AFIB13AN": {
+            "valor": "0",
+            "label": null
+        },
+        "AFIB13BH": {
+            "valor": 0,
+            "label": null
+        },
+        "AFIB13BM": {
+            "valor": 0,
+            "label": null
+        },
+        "AFIB13BN": {
+            "valor": "1",
+            "label": null
+        },
+        "AFIB1N": {
+            "valor": "1",
+            "label": null
+        },
+        "AFIB2A": {
+            "valor": 0,
+            "label": null
+        },
+        "AFIB3N": {
+            "valor": "1",
+            "label": null
+        },
+        "AFIB4A": {
+            "valor": 0,
+            "label": null
+        },
+        "AFIB5N": {
+            "valor": "1",
+            "label": null
+        },
+        "AFIB6A": {
+            "valor": 0,
+            "label": null
+        },
+        "AFIB7N": {
+            "valor": "1",
+            "label": null
+        },
+        "AFIB8A": {
+            "valor": 0,
+            "label": null
+        },
+        "AFIB9N": {
+            "valor": "0",
+            "label": null
+        },
+        "CALB1": {
+            "valor": 0,
+            "label": null
+        },
+        "CALB2": {
+            "valor": 1,
+            "label": null
+        },
+        "CALB3": {
+            "valor": 3,
+            "label": null
+        },
+        "CALB4": {
+            "valor": 1,
+            "label": null
+        },
+        "CALB5": {
+            "valor": 1,
+            "label": null
+        },
+        "CALB10": {
+            "valor": null,
+            "label": null
+        },
+        "CALB11": {
+            "valor": null,
+            "label": null
+        },
+        "CALB6A": {
+            "valor": null,
+            "label": null
+        },
+        "CALB6B": {
+            "valor": ".P",
+            "label": null
+        },
+        "CALB6C": {
+            "valor": ".P",
+            "label": null
+        },
+        "CALB7A": {
+            "valor": null,
+            "label": null
+        },
+        "CALB7B": {
+            "valor": ".P",
+            "label": null
+        },
+        "CALB7C": {
+            "valor": ".P",
+            "label": null
+        },
+        "CALB8A": {
+            "valor": null,
+            "label": null
+        },
+        "CALB8B": {
+            "valor": null,
+            "label": null
+        },
+        "CALB8C": {
+            "valor": null,
+            "label": null
+        },
+        "CALB8D": {
+            "valor": ".P",
+            "label": null
+        },
+        "CALB8E": {
+            "valor": ".P",
+            "label": null
+        },
+        "CALB9A": {
+            "valor": null,
+            "label": null
+        },
+        "CALB9B": {
+            "valor": ".P",
+            "label": null
+        },
+        "CALB9C": {
+            "valor": ".P",
+            "label": null
+        },
+        "CISBB1": {
+            "valor": 1,
+            "label": null
+        },
+        "CISBB2": {
+            "valor": null,
+            "label": null
+        },
+        "CISBB3": {
+            "valor": 1,
+            "label": null
+        },
+        "CISBB4": {
+            "valor": 3,
+            "label": null
+        },
+        "CISBB5": {
+            "valor": null,
+            "label": null
+        },
+        "CISBB6": {
+            "valor": null,
+            "label": null
+        },
+        "CISBB7": {
+            "valor": null,
+            "label": null
+        },
+        "CISBB8": {
+            "valor": null,
+            "label": null
+        },
+        "CISBB9": {
+            "valor": null,
+            "label": null
+        },
+        "CISBB3A": {
+            "valor": 7,
+            "label": null
+        },
+        "CISBC1": {
+            "valor": 0,
+            "label": null
+        },
+        "CISBC2": {
+            "valor": 1,
+            "label": null
+        },
+        "CISBC4": {
+            "valor": null,
+            "label": null
+        },
+        "CISBC5": {
+            "valor": null,
+            "label": null
+        },
+        "CISBC6": {
+            "valor": null,
+            "label": null
+        },
+        "CISBC7": {
+            "valor": 0,
+            "label": null
+        },
+        "CISBC8": {
+            "valor": 2,
+            "label": null
+        },
+        "CISBD1": {
+            "valor": 1,
+            "label": null
+        },
+        "CISBD2": {
+            "valor": null,
+            "label": null
+        },
+        "CISBD3": {
+            "valor": 2,
+            "label": null
+        },
+        "CISBD4": {
+            "valor": 1,
+            "label": null
+        },
+        "CISBD5": {
+            "valor": null,
+            "label": null
+        },
+        "CISBD6": {
+            "valor": null,
+            "label": null
+        },
+        "CISBD7": {
+            "valor": 1,
+            "label": null
+        },
+        "CISBD8": {
+            "valor": null,
+            "label": null
+        },
+        "CISBD9": {
+            "valor": null,
+            "label": null
+        },
+        "CISBD10": {
+            "valor": 5,
+            "label": null
+        },
+        "CISBD4A": {
+            "valor": 9,
+            "label": null
+        },
+        "CISBG1": {
+            "valor": 0,
+            "label": null
+        },
+        "CISBG2": {
+            "valor": 1,
+            "label": null
+        },
+        "CISBG4": {
+            "valor": null,
+            "label": null
+        },
+        "CISBG5": {
+            "valor": null,
+            "label": null
+        },
+        "CISBG6": {
+            "valor": null,
+            "label": null
+        },
+        "CISBG7": {
+            "valor": null,
+            "label": null
+        },
+        "CISBG9": {
+            "valor": null,
+            "label": null
+        },
+        "CISBG10": {
+            "valor": null,
+            "label": null
+        },
+        "CISBG8A1": {
+            "valor": null,
+            "label": null
+        },
+        "CISBG8A2": {
+            "valor": null,
+            "label": null
+        },
+        "CISBG8A3": {
+            "valor": null,
+            "label": null
+        },
+        "CISBG8A4": {
+            "valor": null,
+            "label": null
+        },
+        "CISBG8A5": {
+            "valor": null,
+            "label": null
+        },
+        "CISBG8A6": {
+            "valor": null,
+            "label": null
+        },
+        "CISBG8A7": {
+            "valor": null,
+            "label": null
+        },
+        "CISBG8A8": {
+            "valor": null,
+            "label": null
+        },
+        "CISBG8A9": {
+            "valor": null,
+            "label": null
+        },
+        "CISBG8A10": {
+            "valor": null,
+            "label": null
+        },
+        "CISBG8A11": {
+            "valor": null,
+            "label": null
+        },
+        "CISBG8A12": {
+            "valor": null,
+            "label": null
+        },
+        "CISBG8B": {
+            "valor": null,
+            "label": null
+        },
+        "CISBH1": {
+            "valor": null,
+            "label": null
+        },
+        "CISBH2": {
+            "valor": null,
+            "label": null
+        },
+        "CISBH4": {
+            "valor": null,
+            "label": null
+        },
+        "CISBH5": {
+            "valor": null,
+            "label": null
+        },
+        "CISBH6": {
+            "valor": null,
+            "label": null
+        },
+        "CISBH8": {
+            "valor": null,
+            "label": null
+        },
+        "CISBH3A": {
+            "valor": null,
+            "label": null
+        },
+        "CISBH3B": {
+            "valor": null,
+            "label": null
+        },
+        "CISBH3C": {
+            "valor": null,
+            "label": null
+        },
+        "CISBH9A": {
+            "valor": null,
+            "label": null
+        },
+        "CISBH9B": {
+            "valor": null,
+            "label": null
+        },
+        "CISBO1": {
+            "valor": 0,
+            "label": null
+        },
+        "CISBO1A": {
+            "valor": null,
+            "label": null
+        },
+        "CISBO1B": {
+            "valor": 1,
+            "label": null
+        },
+        "DIEB135": {
+            "valor": 1,
+            "label": null
+        },
+        "DIEB136A": {
+            "valor": "1",
+            "label": null
+        },
+        "DIEB136B": {
+            "valor": "0",
+            "label": null
+        },
+        "DIEB136C": {
+            "valor": "0",
+            "label": null
+        },
+        "DIEB136D": {
+            "valor": "0",
+            "label": null
+        },
+        "DIEB136E": {
+            "valor": "0",
+            "label": null
+        },
+        "DIEB136F": {
+            "valor": "1",
+            "label": null
+        },
+        "DIEB136G": {
+            "valor": "0",
+            "label": null
+        },
+        "DIEB136GQ": {
+            "valor": ".P",
+            "label": null
+        },
+        "FCOB1A": {
+            "valor": 1,
+            "label": null
+        },
+        "FCOB1B": {
+            "valor": null,
+            "label": null
+        },
+        "FCOB2SC": {
+            "valor": 2,
+            "label": null
+        },
+        "FCOB3SC": {
+            "valor": 5,
+            "label": null
+        },
+        "FCOB4SC": {
+            "valor": 8,
+            "label": null
+        },
+        "FCOB5SC": {
+            "valor": null,
+            "label": null
+        },
+        "FCOB6SC": {
+            "valor": null,
+            "label": null
+        },
+        "FCOB7SC": {
+            "valor": null,
+            "label": null
+        },
+        "FCOB8": {
+            "valor": 10,
+            "label": null
+        },
+        "FCOB9": {
+            "valor": 11,
+            "label": null
+        },
+        "FCOB10SC": {
+            "valor": 3,
+            "label": null
+        },
+        "FCOB11SC1": {
+            "valor": 10,
+            "label": null
+        },
+        "FCOB11SC2": {
+            "valor": 0,
+            "label": null
+        },
+        "FCOB12SC": {
+            "valor": null,
+            "label": null
+        },
+        "FCOB13SC1": {
+            "valor": null,
+            "label": null
+        },
+        "FCOB13SC2": {
+            "valor": null,
+            "label": null
+        },
+        "FCOB14": {
+            "valor": 1,
+            "label": null
+        },
+        "FCOB15": {
+            "valor": 1,
+            "label": null
+        },
+        "HMPB1": {
+            "valor": 3,
+            "label": null
+        },
+        "HMPB16": {
+            "valor": null,
+            "label": null
+        },
+        "HMPB53": {
+            "valor": 0,
+            "label": null
+        },
+        "HOCB56": {
+            "valor": 1,
+            "label": null
+        },
+        "HOCB57": {
+            "valor": null,
+            "label": null
+        },
+        "HOCB58": {
+            "valor": null,
+            "label": null
+        },
+        "HOCB59": {
+            "valor": null,
+            "label": null
+        },
+        "HOCB60": {
+            "valor": ".P",
+            "label": null
+        },
+        "HOCB61": {
+            "valor": null,
+            "label": null
+        },
+        "HOCB62": {
+            "valor": null,
+            "label": null
+        },
+        "HOCB63": {
+            "valor": null,
+            "label": null
+        },
+        "HOCB64": {
+            "valor": null,
+            "label": null
+        },
+        "HOCB65": {
+            "valor": null,
+            "label": null
+        },
+        "HOCB66": {
+            "valor": ".P",
+            "label": null
+        },
+        "HOCB67": {
+            "valor": null,
+            "label": null
+        },
+        "HOCB68": {
+            "valor": null,
+            "label": null
+        },
+        "HOCB69": {
+            "valor": null,
+            "label": null
+        },
+        "HOCB70": {
+            "valor": null,
+            "label": null
+        },
+        "HOCB71": {
+            "valor": null,
+            "label": null
+        },
+        "HOCB72": {
+            "valor": null,
+            "label": null
+        },
+        "HOCB73": {
+            "valor": null,
+            "label": null
+        },
+        "HOCB74": {
+            "valor": 1,
+            "label": null
+        },
+        "HOCB75": {
+            "valor": "trabalho na biblioteca e atidataParticipantidades com professor quimico",
+            "label": null
+        },
+        "HOCB76": {
+            "valor": 1,
+            "label": null
+        },
+        "HOCB77": {
+            "valor": 0,
+            "label": null
+        },
+        "HOCB78": {
+            "valor": null,
+            "label": null
+        },
+        "HOCB79": {
+            "valor": 1,
+            "label": null
+        },
+        "HOCB80": {
+            "valor": 1,
+            "label": null
+        },
+        "HOCB81": {
+            "valor": 0,
+            "label": null
+        },
+        "HOCB82": {
+            "valor": null,
+            "label": null
+        },
+        "HOCB83": {
+            "valor": 3,
+            "label": null
+        },
+        "HOCB84": {
+            "valor": 4,
+            "label": null
+        },
+        "HOCB85": {
+            "valor": 1,
+            "label": null
+        },
+        "HOCB86": {
+            "valor": 4,
+            "label": null
+        },
+        "HOCB87": {
+            "valor": 4,
+            "label": null
+        },
+        "HOCB88": {
+            "valor": 4,
+            "label": null
+        },
+        "HOCB89": {
+            "valor": 1,
+            "label": null
+        },
+        "HOCB90": {
+            "valor": 1,
+            "label": null
+        },
+        "HOCB91": {
+            "valor": 1,
+            "label": null
+        },
+        "HOCB92": {
+            "valor": 4,
+            "label": null
+        },
+        "HOCB93": {
+            "valor": 1,
+            "label": null
+        },
+        "HOCB94": {
+            "valor": 3,
+            "label": null
+        },
+        "HOCB95": {
+            "valor": 1,
+            "label": null
+        },
+        "HOCB96": {
+            "valor": 4,
+            "label": null
+        },
+        "HOCB97": {
+            "valor": 2,
+            "label": null
+        },
+        "HOCB98": {
+            "valor": 3,
+            "label": null
+        },
+        "HOCB99": {
+            "valor": 4,
+            "label": null
+        },
+        "HOCB100": {
+            "valor": 1,
+            "label": null
+        },
+        "HOCB101": {
+            "valor": 4,
+            "label": null
+        },
+        "HOCB102": {
+            "valor": 4,
+            "label": null
+        },
+        "HOCB103": {
+            "valor": 2,
+            "label": null
+        },
+        "HOCB104": {
+            "valor": 2,
+            "label": null
+        },
+        "HOCB105": {
+            "valor": 0,
+            "label": null
+        },
+        "HOCB106": {
+            "valor": 40,
+            "label": null
+        },
+        "HOCB107": {
+            "valor": 1,
+            "label": null
+        },
+        "HOCB108": {
+            "valor": null,
+            "label": null
+        },
+        "HOCB109": {
+            "valor": null,
+            "label": null
+        },
+        "HOCB110": {
+            "valor": null,
+            "label": null
+        },
+        "HOCB111": {
+            "valor": 1,
+            "label": null
+        },
+        "HOCB112": {
+            "valor": 0,
+            "label": null
+        },
+        "HOCB105A": {
+            "valor": null,
+            "label": null
+        },
+        "HOCB111A": {
+            "valor": 4,
+            "label": null
+        },
+        "HdataParticipantSB1": {
+            "valor": 1,
+            "label": null
+        },
+        "HdataParticipantSB3": {
+            "valor": 0,
+            "label": null
+        },
+        "HdataParticipantSB7": {
+            "valor": 0,
+            "label": null
+        },
+        "HdataParticipantSB8": {
+            "valor": null,
+            "label": null
+        },
+        "HdataParticipantSB9": {
+            "valor": null,
+            "label": null
+        },
+        "HdataParticipantSB10": {
+            "valor": null,
+            "label": null
+        },
+        "HdataParticipantSB2A": {
+            "valor": 13,
+            "label": null
+        },
+        "HdataParticipantSB4A": {
+            "valor": 60,
+            "label": null
+        },
+        "HdataParticipantSB5A": {
+            "valor": 60,
+            "label": null
+        },
+        "HdataParticipantSB6A": {
+            "valor": 47,
+            "label": null
+        },
+        "MULB2": {
+            "valor": null,
+            "label": null
+        },
+        "MULB3": {
+            "valor": null,
+            "label": null
+        },
+        "MULB10": {
+            "valor": null,
+            "label": null
+        },
+        "MULB11": {
+            "valor": null,
+            "label": null
+        },
+        "MULB12": {
+            "valor": null,
+            "label": null
+        },
+        "MULB14": {
+            "valor": null,
+            "label": null
+        },
+        "MULB16": {
+            "valor": null,
+            "label": null
+        },
+        "MULB18": {
+            "valor": null,
+            "label": null
+        },
+        "MULB19": {
+            "valor": null,
+            "label": null
+        },
+        "MULB26": {
+            "valor": null,
+            "label": null
+        },
+        "MULB28": {
+            "valor": null,
+            "label": null
+        },
+        "MULB32": {
+            "valor": null,
+            "label": null
+        },
+        "MULB33": {
+            "valor": null,
+            "label": null
+        },
+        "MULB34": {
+            "valor": null,
+            "label": null
+        },
+        "MULB35": {
+            "valor": null,
+            "label": null
+        },
+        "MULB39": {
+            "valor": null,
+            "label": null
+        },
+        "MULB40": {
+            "valor": null,
+            "label": null
+        },
+        "MULB13A": {
+            "valor": null,
+            "label": null
+        },
+        "MULB15A": {
+            "valor": null,
+            "label": null
+        },
+        "MULB15B": {
+            "valor": null,
+            "label": null
+        },
+        "MULB15C": {
+            "valor": null,
+            "label": null
+        },
+        "MULB15D": {
+            "valor": null,
+            "label": null
+        },
+        "MULB17A": {
+            "valor": null,
+            "label": null
+        },
+        "MULB17B": {
+            "valor": null,
+            "label": null
+        },
+        "MULB17C": {
+            "valor": null,
+            "label": null
+        },
+        "MULB17D": {
+            "valor": null,
+            "label": null
+        },
+        "MULB17E": {
+            "valor": null,
+            "label": null
+        },
+        "MULB17F": {
+            "valor": null,
+            "label": null
+        },
+        "MULB17G": {
+            "valor": null,
+            "label": null
+        },
+        "MULB17H": {
+            "valor": null,
+            "label": null
+        },
+        "MULB17I": {
+            "valor": null,
+            "label": null
+        },
+        "MULB17J": {
+            "valor": null,
+            "label": null
+        },
+        "MULB17L": {
+            "valor": null,
+            "label": null
+        },
+        "MULB17M": {
+            "valor": null,
+            "label": null
+        },
+        "MULB17MQ": {
+            "valor": ".A",
+            "label": null
+        },
+        "MULB20A": {
+            "valor": null,
+            "label": null
+        },
+        "MULB20B": {
+            "valor": null,
+            "label": null
+        },
+        "MULB20BQ": {
+            "valor": ".A",
+            "label": null
+        },
+        "MULB30A": {
+            "valor": null,
+            "label": null
+        },
+        "MULB30B": {
+            "valor": null,
+            "label": null
+        },
+        "MULB30BQ": {
+            "valor": ".A",
+            "label": null
+        },
+        "MULB31A": {
+            "valor": null,
+            "label": null
+        },
+        "MULB34A": {
+            "valor": null,
+            "label": null
+        },
+        "MULB34B": {
+            "valor": null,
+            "label": null
+        },
+        "MULB34C1": {
+            "valor": null,
+            "label": null
+        },
+        "MULB34C2": {
+            "valor": null,
+            "label": null
+        },
+        "MULB34D": {
+            "valor": null,
+            "label": null
+        },
+        "MULB34D1": {
+            "valor": null,
+            "label": null
+        },
+        "MULB34D2": {
+            "valor": null,
+            "label": null
+        },
+        "MULB36A": {
+            "valor": null,
+            "label": null
+        },
+        "MULB36B": {
+            "valor": null,
+            "label": null
+        },
+        "MULB36C": {
+            "valor": null,
+            "label": null
+        },
+        "MULB36D": {
+            "valor": null,
+            "label": null
+        },
+        "MULB36E": {
+            "valor": null,
+            "label": null
+        },
+        "MULB36F": {
+            "valor": null,
+            "label": null
+        },
+        "MULB36G": {
+            "valor": null,
+            "label": null
+        },
+        "MULB37A": {
+            "valor": null,
+            "label": null
+        },
+        "MULB37B": {
+            "valor": null,
+            "label": null
+        },
+        "MULB37C": {
+            "valor": null,
+            "label": null
+        },
+        "MULB37D": {
+            "valor": null,
+            "label": null
+        },
+        "MULB37E": {
+            "valor": null,
+            "label": null
+        },
+        "MULB38A": {
+            "valor": null,
+            "label": null
+        },
+        "MULB38B": {
+            "valor": null,
+            "label": null
+        },
+        "MULB38C": {
+            "valor": null,
+            "label": null
+        },
+        "MULB38D": {
+            "valor": null,
+            "label": null
+        },
+        "MULB38E": {
+            "valor": null,
+            "label": null
+        },
+        "MULB40A1": {
+            "valor": null,
+            "label": null
+        },
+        "MULB40A2": {
+            "valor": null,
+            "label": null
+        },
+        "MULB40A3": {
+            "valor": null,
+            "label": null
+        },
+        "MULB40A4": {
+            "valor": null,
+            "label": null
+        },
+        "MULB40A5": {
+            "valor": null,
+            "label": null
+        },
+        "MULB4A": {
+            "valor": null,
+            "label": null
+        },
+        "MULB5A": {
+            "valor": null,
+            "label": null
+        },
+        "MULB5B": {
+            "valor": null,
+            "label": null
+        },
+        "MULB5C": {
+            "valor": null,
+            "label": null
+        },
+        "MULB5D": {
+            "valor": null,
+            "label": null
+        },
+        "MULB5F": {
+            "valor": null,
+            "label": null
+        },
+        "MULB5G": {
+            "valor": ".A",
+            "label": null
+        },
+        "MULB9A": {
+            "valor": null,
+            "label": null
+        },
+        "MULB9B": {
+            "valor": null,
+            "label": null
+        },
+        "MULB9C": {
+            "valor": null,
+            "label": null
+        },
+        "MULB9D": {
+            "valor": null,
+            "label": null
+        },
+        "PCOB5A": {
+            "valor": 6,
+            "label": null
+        },
+        "PCOB8A": {
+            "valor": 8,
+            "label": null
+        },
+        "PCOB8B": {
+            "valor": 5,
+            "label": null
+        },
+        "PCOB8C": {
+            "valor": 4,
+            "label": null
+        },
+        "PCOB8D": {
+            "valor": 1,
+            "label": null
+        },
+        "PCOB8E": {
+            "valor": null,
+            "label": null
+        },
+        "PSEB1": {
+            "valor": 2,
+            "label": null
+        },
+        "PSEB2": {
+            "valor": 4,
+            "label": null
+        },
+        "PSEB6": {
+            "valor": 0,
+            "label": null
+        },
+        "PSEB8": {
+            "valor": 4,
+            "label": null
+        },
+        "PSEB10": {
+            "valor": 3,
+            "label": null
+        },
+        "PSEB11": {
+            "valor": 1,
+            "label": null
+        },
+        "PSEB12": {
+            "valor": 0,
+            "label": null
+        },
+        "PSEB13": {
+            "valor": 1,
+            "label": null
+        },
+        "PSEB14": {
+            "valor": 2,
+            "label": null
+        },
+        "PSEB15": {
+            "valor": 0,
+            "label": null
+        },
+        "PSEB16": {
+            "valor": 1,
+            "label": null
+        },
+        "PSEB17": {
+            "valor": 1,
+            "label": null
+        },
+        "PSEB18": {
+            "valor": 1,
+            "label": null
+        },
+        "PSEB19": {
+            "valor": 0,
+            "label": null
+        },
+        "PSEB20": {
+            "valor": 1,
+            "label": null
+        },
+        "PSEB21": {
+            "valor": 4,
+            "label": null
+        },
+        "PSEB22": {
+            "valor": null,
+            "label": null
+        },
+        "PSEB3A": {
+            "valor": null,
+            "label": null
+        },
+        "PSEB7A": {
+            "valor": null,
+            "label": null
+        },
+        "PSEB8A": {
+            "valor": ".P",
+            "label": null
+        },
+        "PSEB9A": {
+            "valor": 2,
+            "label": null
+        },
+        "SdataParticipantDB1": {
+            "valor": 2,
+            "label": null
+        },
+        "SdataParticipantDB2": {
+            "valor": 2,
+            "label": null
+        },
+        "SdataParticipantDB3": {
+            "valor": 3,
+            "label": null
+        },
+        "SdataParticipantDB4": {
+            "valor": 3,
+            "label": null
+        },
+        "SdataParticipantDB5": {
+            "valor": 2,
+            "label": null
+        },
+        "dataParticipantIFB1": {
+            "valor": 6,
+            "label": null
+        },
+        "dataParticipantIFB4": {
+            "valor": 1,
+            "label": null
+        },
+        "dataParticipantIFB7": {
+            "valor": null,
+            "label": null
+        },
+        "dataParticipantIFB8": {
+            "valor": ".P",
+            "label": null
+        },
+        "dataParticipantIFB9": {
+            "valor": null,
+            "label": null
+        },
+        "dataParticipantIFB10": {
+            "valor": 7,
+            "label": null
+        },
+        "dataParticipantIFB11": {
+            "valor": 0,
+            "label": null
+        },
+        "dataParticipantIFB12": {
+            "valor": null,
+            "label": null
+        },
+        "dataParticipantIFB16": {
+            "valor": 4,
+            "label": null
+        },
+        "dataParticipantIFB29": {
+            "valor": null,
+            "label": null
+        },
+        "dataParticipantIFB31": {
+            "valor": 4,
+            "label": null
+        },
+        "dataParticipantIFB38": {
+            "valor": null,
+            "label": null
+        },
+        "dataParticipantIFB39": {
+            "valor": null,
+            "label": null
+        },
+        "dataParticipantIFB40": {
+            "valor": 1,
+            "label": null
+        },
+        "dataParticipantIFB42": {
+            "valor": 0,
+            "label": null
+        },
+        "dataParticipantIFB43": {
+            "valor": null,
+            "label": null
+        },
+        "dataParticipantIFB44": {
+            "valor": null,
+            "label": null
+        },
+        "dataParticipantIFB45": {
+            "valor": 0,
+            "label": null
+        },
+        "dataParticipantIFB10A": {
+            "valor": "três irmãos",
+            "label": null
+        },
+        "dataParticipantIFB1Q": {
+            "valor": ".P",
+            "label": null
+        },
+        "dataParticipantIFB41A": {
+            "valor": 3,
+            "label": null
+        },
+        "dataParticipantIFB41B": {
+            "valor": 1,
+            "label": null
+        },
+        "dataParticipantIFB44A": {
+            "valor": null,
+            "label": null
+        },
+        "dataParticipantIFB45A": {
+            "valor": null,
+            "label": null
+        },
+        "dataParticipantIFB5A": {
+            "valor": null,
+            "label": null
+        },
+        "dataParticipantIZB1": {
+            "valor": 1,
+            "label": null
+        },
+        "dataParticipantIZB2": {
+            "valor": 2,
+            "label": null
+        },
+        "dataParticipantIZB3": {
+            "valor": 2,
+            "label": null
+        },
+        "dataParticipantIZB4": {
+            "valor": 1,
+            "label": null
+        },
+        "dataParticipantIZB5": {
+            "valor": 2,
+            "label": null
+        },
+        "dataParticipantIZB6": {
+            "valor": 2,
+            "label": null
+        },
+        "dataParticipantIZB7": {
+            "valor": 1,
+            "label": null
+        },
+        "dataParticipantIZB8": {
+            "valor": 1,
+            "label": null
+        },
+        "dataParticipantIZB9": {
+            "valor": 4,
+            "label": null
+        },
+        "dataParticipantIZB10": {
+            "valor": 2,
+            "label": null
+        },
+        "dataParticipantIZB11": {
+            "valor": 2,
+            "label": null
+        },
+        "dataParticipantIZB12": {
+            "valor": 1,
+            "label": null
+        },
+        "dataParticipantIZB13": {
+            "valor": 1,
+            "label": null
+        },
+        "dataParticipantIZB14": {
+            "valor": 1,
+            "label": null
+        },
+        "dataParticipantIZB15": {
+            "valor": 1,
+            "label": null
+        },
+        "dataParticipantIZB16": {
+            "valor": 1,
+            "label": null
+        },
+        "dataParticipantIZB17": {
+            "valor": 1,
+            "label": null
+        },
+        "dataParticipantIZB18": {
+            "valor": 5,
+            "label": null
+        },
+        "dataParticipantIZB19": {
+            "valor": 1,
+            "label": null
+        },
+        "dataParticipantIZB20": {
+            "valor": 5,
+            "label": null
+        },
+        "dataParticipantIZB21": {
+            "valor": 1,
+            "label": null
+        },
+        "dataParticipantIZB22": {
+            "valor": 4,
+            "label": null
+        },
+        "dataParticipantIZB23": {
+            "valor": 4,
+            "label": null
+        },
+        "dataParticipantIZB24": {
+            "valor": 4,
+            "label": null
+        },
+        "dataParticipantIZB25": {
+            "valor": 4,
+            "label": null
+        },
+        "dataParticipantIZB26": {
+            "valor": 2,
+            "label": null
+        },
+        "dataParticipantIZB28": {
+            "valor": 0,
+            "label": null
+        },
+        "dataParticipantIZB29": {
+            "valor": 5,
+            "label": null
+        },
+        "dataParticipantIZB30": {
+            "valor": 1,
+            "label": null
+        },
+        "dataParticipantIZB31": {
+            "valor": 1,
+            "label": null
+        },
+        "dataParticipantIZB32": {
+            "valor": 1,
+            "label": null
+        },
+        "dataParticipantIZB33": {
+            "valor": 1,
+            "label": null
+        },
+        "dataParticipantIZB34": {
+            "valor": 1,
+            "label": null
+        },
+        "dataParticipantIZB27A": {
+            "valor": 12,
+            "label": null
+        },
+        "CABB1A": {
+            "valor": null,
+            "label": null
+        },
+        "CABB1ALT": {
+            "valor": ".A",
+            "label": null
+        },
+        "CABB1ALT1": {
+            "valor": ".A",
+            "label": null
+        },
+        "CABB1ALT2": {
+            "valor": ".A",
+            "label": null
+        },
+        "CABB1ALT3": {
+            "valor": ".A",
+            "label": null
+        },
+        "CABB1ALT4": {
+            "valor": ".A",
+            "label": null
+        },
+        "CABB1ALTQOU": {
+            "valor": ".A",
+            "label": null
+        },
+        "CABB1B": {
+            "valor": null,
+            "label": null
+        },
+        "RETB1": {
+            "valor": null,
+            "label": null
+        },
+        "RETB2": {
+            "valor": null,
+            "label": null
+        },
+        "RETB3": {
+            "valor": null,
+            "label": null
+        },
+        "RETB4": {
+            "valor": null,
+            "label": null
+        },
+        "RETB5": {
+            "valor": null,
+            "label": null
+        },
+        "RETB6": {
+            "valor": null,
+            "label": null
+        },
+        "RETB7": {
+            "valor": null,
+            "label": null
+        },
+        "RETB8": {
+            "valor": null,
+            "label": null
+        },
+        "RETB9": {
+            "valor": null,
+            "label": null
+        },
+        "RETB10": {
+            "valor": null,
+            "label": null
+        },
+        "RETB11": {
+            "valor": null,
+            "label": null
+        },
+        "RETB12DF": {
+            "valor": null,
+            "label": null
+        },
+        "RETB12DN": {
+            "valor": null,
+            "label": null
+        },
+        "RETB12MF": {
+            "valor": null,
+            "label": null
+        },
+        "RETB12MN": {
+            "valor": null,
+            "label": null
+        },
+        "RETB13DF": {
+            "valor": null,
+            "label": null
+        },
+        "RETB13DN": {
+            "valor": null,
+            "label": null
+        },
+        "RETB13MF": {
+            "valor": null,
+            "label": null
+        },
+        "RETB13MN": {
+            "valor": null,
+            "label": null
+        },
+        "RETB14A": {
+            "valor": null,
+            "label": null
+        },
+        "RETB14B": {
+            "valor": null,
+            "label": null
+        },
+        "RETB14C": {
+            "valor": null,
+            "label": null
+        },
+        "RETB14D": {
+            "valor": null,
+            "label": null
+        },
+        "RETB14E": {
+            "valor": null,
+            "label": null
+        },
+        "RETB14F": {
+            "valor": null,
+            "label": null
+        },
+        "RETB14G": {
+            "valor": null,
+            "label": null
+        },
+        "RETB14Q": {
+            "valor": ".A",
+            "label": null
+        },
+        "RETB1A": {
+            "valor": null,
+            "label": null
+        },
+        "RETB2A": {
+            "valor": null,
+            "label": null
+        },
+        "RETB4A": {
+            "valor": null,
+            "label": null
+        },
+        "RETB4B": {
+            "valor": null,
+            "label": null
+        },
+        "RETB4C": {
+            "valor": null,
+            "label": null
+        },
+        "RETB6A": {
+            "valor": null,
+            "label": null
+        },
+        "RETB7A": {
+            "valor": null,
+            "label": null
+        },
+        "RETB7B": {
+            "valor": null,
+            "label": null
+        },
+        "RETB7C": {
+            "valor": null,
+            "label": null
+        },
+        "RETB9A": {
+            "valor": null,
+            "label": null
+        },
+        "RETB9B": {
+            "valor": null,
+            "label": null
+        },
+        "MEDB1": {
+            "valor": 1,
+            "label": null
+        },
+        "MEDB12": {
+            "valor": 1,
+            "label": null
+        },
+        "MEDB13": {
+            "valor": 1,
+            "label": null
+        },
+        "MEDB14": {
+            "valor": 1,
+            "label": null
+        },
+        "MEDB10_1": {
+            "valor": 14,
+            "label": null
+        },
+        "MEDB10_2": {
+            "valor": 14,
+            "label": null
+        },
+        "MEDB10_3": {
+            "valor": 14,
+            "label": null
+        },
+        "MEDB10_4": {
+            "valor": 14,
+            "label": null
+        },
+        "MEDB10_5": {
+            "valor": 14,
+            "label": null
+        },
+        "MEDB10_6": {
+            "valor": 10,
+            "label": null
+        },
+        "MEDB10_7": {
+            "valor": null,
+            "label": null
+        },
+        "MEDB10_8": {
+            "valor": null,
+            "label": null
+        },
+        "MEDB10_9": {
+            "valor": null,
+            "label": null
+        },
+        "MEDB10_10": {
+            "valor": null,
+            "label": null
+        },
+        "MEDB10_11": {
+            "valor": null,
+            "label": null
+        },
+        "MEDB10_12": {
+            "valor": null,
+            "label": null
+        },
+        "MEDB10_13": {
+            "valor": null,
+            "label": null
+        },
+        "MEDB10_14": {
+            "valor": null,
+            "label": null
+        },
+        "MEDB10_15": {
+            "valor": null,
+            "label": null
+        },
+        "MEDB10_16": {
+            "valor": null,
+            "label": null
+        },
+        "MEDB10_17": {
+            "valor": null,
+            "label": null
+        },
+        "MEDB10_18": {
+            "valor": null,
+            "label": null
+        },
+        "MEDB10_19": {
+            "valor": null,
+            "label": null
+        },
+        "MEDB10_20": {
+            "valor": null,
+            "label": null
+        },
+        "MEDB10_21": {
+            "valor": null,
+            "label": null
+        },
+        "MEDB10_22": {
+            "valor": null,
+            "label": null
+        },
+        "MEDB10_23": {
+            "valor": null,
+            "label": null
+        },
+        "MEDB10_24": {
+            "valor": null,
+            "label": null
+        },
+        "MEDB10_25": {
+            "valor": null,
+            "label": null
+        },
+        "MEDB10_26": {
+            "valor": null,
+            "label": null
+        },
+        "MEDB10_27": {
+            "valor": null,
+            "label": null
+        },
+        "MEDB10_28": {
+            "valor": null,
+            "label": null
+        },
+        "MEDB10_29": {
+            "valor": null,
+            "label": null
+        },
+        "MEDB10_30": {
+            "valor": null,
+            "label": null
+        },
+        "MEDB11A_1": {
+            "valor": 4,
+            "label": null
+        },
+        "MEDB11A_2": {
+            "valor": 4,
+            "label": null
+        },
+        "MEDB11A_3": {
+            "valor": 4,
+            "label": null
+        },
+        "MEDB11A_4": {
+            "valor": null,
+            "label": null
+        },
+        "MEDB11A_5": {
+            "valor": 4,
+            "label": null
+        },
+        "MEDB11A_6": {
+            "valor": 4,
+            "label": null
+        },
+        "MEDB11A_7": {
+            "valor": null,
+            "label": null
+        },
+        "MEDB11A_8": {
+            "valor": null,
+            "label": null
+        },
+        "MEDB11A_9": {
+            "valor": null,
+            "label": null
+        },
+        "MEDB11A_10": {
+            "valor": null,
+            "label": null
+        },
+        "MEDB11A_11": {
+            "valor": null,
+            "label": null
+        },
+        "MEDB11A_12": {
+            "valor": null,
+            "label": null
+        },
+        "MEDB11A_13": {
+            "valor": null,
+            "label": null
+        },
+        "MEDB11A_14": {
+            "valor": null,
+            "label": null
+        },
+        "MEDB11A_15": {
+            "valor": null,
+            "label": null
+        },
+        "MEDB11A_16": {
+            "valor": null,
+            "label": null
+        },
+        "MEDB11A_17": {
+            "valor": null,
+            "label": null
+        },
+        "MEDB11A_18": {
+            "valor": null,
+            "label": null
+        },
+        "MEDB11A_19": {
+            "valor": null,
+            "label": null
+        },
+        "MEDB11A_20": {
+            "valor": null,
+            "label": null
+        },
+        "MEDB11A_21": {
+            "valor": null,
+            "label": null
+        },
+        "MEDB11A_22": {
+            "valor": null,
+            "label": null
+        },
+        "MEDB11A_23": {
+            "valor": null,
+            "label": null
+        },
+        "MEDB11A_24": {
+            "valor": null,
+            "label": null
+        },
+        "MEDB11A_25": {
+            "valor": null,
+            "label": null
+        },
+        "MEDB11A_26": {
+            "valor": null,
+            "label": null
+        },
+        "MEDB11A_27": {
+            "valor": null,
+            "label": null
+        },
+        "MEDB11A_28": {
+            "valor": null,
+            "label": null
+        },
+        "MEDB11A_29": {
+            "valor": null,
+            "label": null
+        },
+        "MEDB11A_30": {
+            "valor": null,
+            "label": null
+        },
+        "MEDB11B_1": {
+            "valor": 0,
+            "label": null
+        },
+        "MEDB11B_2": {
+            "valor": 0,
+            "label": null
+        },
+        "MEDB11B_3": {
+            "valor": 0,
+            "label": null
+        },
+        "MEDB11B_4": {
+            "valor": 0,
+            "label": null
+        },
+        "MEDB11B_5": {
+            "valor": 0,
+            "label": null
+        },
+        "MEDB11B_6": {
+            "valor": 0,
+            "label": null
+        },
+        "MEDB11B_7": {
+            "valor": null,
+            "label": null
+        },
+        "MEDB11B_8": {
+            "valor": null,
+            "label": null
+        },
+        "MEDB11B_9": {
+            "valor": null,
+            "label": null
+        },
+        "MEDB11B_10": {
+            "valor": null,
+            "label": null
+        },
+        "MEDB11B_11": {
+            "valor": null,
+            "label": null
+        },
+        "MEDB11B_12": {
+            "valor": null,
+            "label": null
+        },
+        "MEDB11B_13": {
+            "valor": null,
+            "label": null
+        },
+        "MEDB11B_14": {
+            "valor": null,
+            "label": null
+        },
+        "MEDB11B_15": {
+            "valor": null,
+            "label": null
+        },
+        "MEDB11B_16": {
+            "valor": null,
+            "label": null
+        },
+        "MEDB11B_17": {
+            "valor": null,
+            "label": null
+        },
+        "MEDB11B_18": {
+            "valor": null,
+            "label": null
+        },
+        "MEDB11B_19": {
+            "valor": null,
+            "label": null
+        },
+        "MEDB11B_20": {
+            "valor": null,
+            "label": null
+        },
+        "MEDB11B_21": {
+            "valor": null,
+            "label": null
+        },
+        "MEDB11B_22": {
+            "valor": null,
+            "label": null
+        },
+        "MEDB11B_23": {
+            "valor": null,
+            "label": null
+        },
+        "MEDB11B_24": {
+            "valor": null,
+            "label": null
+        },
+        "MEDB11B_25": {
+            "valor": null,
+            "label": null
+        },
+        "MEDB11B_26": {
+            "valor": null,
+            "label": null
+        },
+        "MEDB11B_27": {
+            "valor": null,
+            "label": null
+        },
+        "MEDB11B_28": {
+            "valor": null,
+            "label": null
+        },
+        "MEDB11B_29": {
+            "valor": null,
+            "label": null
+        },
+        "MEDB11B_30": {
+            "valor": null,
+            "label": null
+        },
+        "MEDB11C_1": {
+            "valor": 0,
+            "label": null
+        },
+        "MEDB11C_2": {
+            "valor": 0,
+            "label": null
+        },
+        "MEDB11C_3": {
+            "valor": 0,
+            "label": null
+        },
+        "MEDB11C_4": {
+            "valor": 0,
+            "label": null
+        },
+        "MEDB11C_5": {
+            "valor": 0,
+            "label": null
+        },
+        "MEDB11C_6": {
+            "valor": 0,
+            "label": null
+        },
+        "MEDB11C_7": {
+            "valor": null,
+            "label": null
+        },
+        "MEDB11C_8": {
+            "valor": null,
+            "label": null
+        },
+        "MEDB11C_9": {
+            "valor": null,
+            "label": null
+        },
+        "MEDB11C_10": {
+            "valor": null,
+            "label": null
+        },
+        "MEDB11C_11": {
+            "valor": null,
+            "label": null
+        },
+        "MEDB11C_12": {
+            "valor": null,
+            "label": null
+        },
+        "MEDB11C_13": {
+            "valor": null,
+            "label": null
+        },
+        "MEDB11C_14": {
+            "valor": null,
+            "label": null
+        },
+        "MEDB11C_15": {
+            "valor": null,
+            "label": null
+        },
+        "MEDB11C_16": {
+            "valor": null,
+            "label": null
+        },
+        "MEDB11C_17": {
+            "valor": null,
+            "label": null
+        },
+        "MEDB11C_18": {
+            "valor": null,
+            "label": null
+        },
+        "MEDB11C_19": {
+            "valor": null,
+            "label": null
+        },
+        "MEDB11C_20": {
+            "valor": null,
+            "label": null
+        },
+        "MEDB11C_21": {
+            "valor": null,
+            "label": null
+        },
+        "MEDB11C_22": {
+            "valor": null,
+            "label": null
+        },
+        "MEDB11C_23": {
+            "valor": null,
+            "label": null
+        },
+        "MEDB11C_24": {
+            "valor": null,
+            "label": null
+        },
+        "MEDB11C_25": {
+            "valor": null,
+            "label": null
+        },
+        "MEDB11C_26": {
+            "valor": null,
+            "label": null
+        },
+        "MEDB11C_27": {
+            "valor": null,
+            "label": null
+        },
+        "MEDB11C_28": {
+            "valor": null,
+            "label": null
+        },
+        "MEDB11C_29": {
+            "valor": null,
+            "label": null
+        },
+        "MEDB11C_30": {
+            "valor": null,
+            "label": null
+        },
+        "MEDB11O_1": {
+            "valor": 1,
+            "label": null
+        },
+        "MEDB11O_2": {
+            "valor": 1,
+            "label": null
+        },
+        "MEDB11O_3": {
+            "valor": 1,
+            "label": null
+        },
+        "MEDB11O_4": {
+            "valor": 1,
+            "label": null
+        },
+        "MEDB11O_5": {
+            "valor": 1,
+            "label": null
+        },
+        "MEDB11O_6": {
+            "valor": 0,
+            "label": null
+        },
+        "MEDB11O_7": {
+            "valor": null,
+            "label": null
+        },
+        "MEDB11O_8": {
+            "valor": null,
+            "label": null
+        },
+        "MEDB11O_9": {
+            "valor": null,
+            "label": null
+        },
+        "MEDB11O_10": {
+            "valor": null,
+            "label": null
+        },
+        "MEDB11O_11": {
+            "valor": null,
+            "label": null
+        },
+        "MEDB11O_12": {
+            "valor": null,
+            "label": null
+        },
+        "MEDB11O_13": {
+            "valor": null,
+            "label": null
+        },
+        "MEDB11O_14": {
+            "valor": null,
+            "label": null
+        },
+        "MEDB12A": {
+            "valor": 1,
+            "label": null
+        },
+        "MEDB13A": {
+            "valor": 1,
+            "label": null
+        },
+        "MEDB14A": {
+            "valor": 1,
+            "label": null
+        },
+        "MEDB2A_1": {
+            "valor": 25,
+            "label": null
+        },
+        "MEDB2A_2": {
+            "valor": 50,
+            "label": null
+        },
+        "MEDB2A_3": {
+            "valor": 50,
+            "label": null
+        },
+        "MEDB2A_4": {
+            "valor": 25,
+            "label": null
+        },
+        "MEDB2A_5": {
+            "valor": 850,
+            "label": null
+        },
+        "MEDB2A_6": {
+            "valor": 100,
+            "label": null
+        },
+        "MEDB2A_7": {
+            "valor": null,
+            "label": null
+        },
+        "MEDB2A_8": {
+            "valor": null,
+            "label": null
+        },
+        "MEDB2A_9": {
+            "valor": null,
+            "label": null
+        },
+        "MEDB2A_10": {
+            "valor": null,
+            "label": null
+        },
+        "MEDB2A_11": {
+            "valor": null,
+            "label": null
+        },
+        "MEDB2A_12": {
+            "valor": null,
+            "label": null
+        },
+        "MEDB2A_13": {
+            "valor": null,
+            "label": null
+        },
+        "MEDB2A_14": {
+            "valor": null,
+            "label": null
+        },
+        "MEDB2A_15": {
+            "valor": null,
+            "label": null
+        },
+        "MEDB2A_16": {
+            "valor": null,
+            "label": null
+        },
+        "MEDB2A_17": {
+            "valor": null,
+            "label": null
+        },
+        "MEDB2A_18": {
+            "valor": null,
+            "label": null
+        },
+        "MEDB2A_19": {
+            "valor": null,
+            "label": null
+        },
+        "MEDB2A_20": {
+            "valor": null,
+            "label": null
+        },
+        "MEDB2A_21": {
+            "valor": null,
+            "label": null
+        },
+        "MEDB2A_22": {
+            "valor": null,
+            "label": null
+        },
+        "MEDB2A_23": {
+            "valor": null,
+            "label": null
+        },
+        "MEDB2A_24": {
+            "valor": null,
+            "label": null
+        },
+        "MEDB2A_25": {
+            "valor": null,
+            "label": null
+        },
+        "MEDB2A_26": {
+            "valor": null,
+            "label": null
+        },
+        "MEDB2A_27": {
+            "valor": null,
+            "label": null
+        },
+        "MEDB2A_28": {
+            "valor": null,
+            "label": null
+        },
+        "MEDB2A_29": {
+            "valor": null,
+            "label": null
+        },
+        "MEDB2A_30": {
+            "valor": null,
+            "label": null
+        },
+        "MEDB2_1": {
+            "valor": "HIDROCLOROTIAZIDA",
+            "label": null
+        },
+        "MEDB2_2": {
+            "valor": "ATENOLOL",
+            "label": null
+        },
+        "MEDB2_3": {
+            "valor": "LOSARTANA POTÁSSICA",
+            "label": null
+        },
+        "MEDB2_4": {
+            "valor": "ESPIRONOLACTONA",
+            "label": null
+        },
+        "MEDB2_5": {
+            "valor": "CLORIDRATO DE METFORMINA",
+            "label": null
+        },
+        "MEDB2_6": {
+            "valor": "AAS INFANTIL",
+            "label": null
+        },
+        "MEDB2_7": {
+            "valor": ".P",
+            "label": null
+        },
+        "MEDB2_8": {
+            "valor": ".P",
+            "label": null
+        },
+        "MEDB2_9": {
+            "valor": ".P",
+            "label": null
+        },
+        "MEDB2_10": {
+            "valor": ".P",
+            "label": null
+        },
+        "MEDB2_11": {
+            "valor": ".P",
+            "label": null
+        },
+        "MEDB2_12": {
+            "valor": ".P",
+            "label": null
+        },
+        "MEDB2_13": {
+            "valor": ".P",
+            "label": null
+        },
+        "MEDB2_14": {
+            "valor": ".P",
+            "label": null
+        },
+        "MEDB2_15": {
+            "valor": ".P",
+            "label": null
+        },
+        "MEDB2_16": {
+            "valor": ".A",
+            "label": null
+        },
+        "MEDB2_17": {
+            "valor": ".A",
+            "label": null
+        },
+        "MEDB2_18": {
+            "valor": ".A",
+            "label": null
+        },
+        "MEDB2_19": {
+            "valor": ".A",
+            "label": null
+        },
+        "MEDB2_20": {
+            "valor": ".A",
+            "label": null
+        },
+        "MEDB2_21": {
+            "valor": ".A",
+            "label": null
+        },
+        "MEDB2_22": {
+            "valor": ".A",
+            "label": null
+        },
+        "MEDB2_23": {
+            "valor": ".A",
+            "label": null
+        },
+        "MEDB2_24": {
+            "valor": ".A",
+            "label": null
+        },
+        "MEDB2_25": {
+            "valor": ".A",
+            "label": null
+        },
+        "MEDB2_26": {
+            "valor": ".A",
+            "label": null
+        },
+        "MEDB2_27": {
+            "valor": ".A",
+            "label": null
+        },
+        "MEDB2_28": {
+            "valor": ".A",
+            "label": null
+        },
+        "MEDB2_29": {
+            "valor": ".A",
+            "label": null
+        },
+        "MEDB2_30": {
+            "valor": ".A",
+            "label": null
+        },
+        "MEDB3A_1": {
+            "valor": ".P",
+            "label": null
+        },
+        "MEDB3A_2": {
+            "valor": ".P",
+            "label": null
+        },
+        "MEDB3A_3": {
+            "valor": ".P",
+            "label": null
+        },
+        "MEDB3A_4": {
+            "valor": ".P",
+            "label": null
+        },
+        "MEDB3A_5": {
+            "valor": ".P",
+            "label": null
+        },
+        "MEDB3A_6": {
+            "valor": ".P",
+            "label": null
+        },
+        "MEDB3A_7": {
+            "valor": ".P",
+            "label": null
+        },
+        "MEDB3A_8": {
+            "valor": ".P",
+            "label": null
+        },
+        "MEDB3A_9": {
+            "valor": ".P",
+            "label": null
+        },
+        "MEDB3A_10": {
+            "valor": ".P",
+            "label": null
+        },
+        "MEDB3A_11": {
+            "valor": ".P",
+            "label": null
+        },
+        "MEDB3A_12": {
+            "valor": ".P",
+            "label": null
+        },
+        "MEDB3A_13": {
+            "valor": ".P",
+            "label": null
+        },
+        "MEDB3A_14": {
+            "valor": ".P",
+            "label": null
+        },
+        "MEDB3A_15": {
+            "valor": ".P",
+            "label": null
+        },
+        "MEDB3A_16": {
+            "valor": ".A",
+            "label": null
+        },
+        "MEDB3A_17": {
+            "valor": ".A",
+            "label": null
+        },
+        "MEDB3A_18": {
+            "valor": ".A",
+            "label": null
+        },
+        "MEDB3A_19": {
+            "valor": ".A",
+            "label": null
+        },
+        "MEDB3A_20": {
+            "valor": ".A",
+            "label": null
+        },
+        "MEDB3A_21": {
+            "valor": ".A",
+            "label": null
+        },
+        "MEDB3A_22": {
+            "valor": ".A",
+            "label": null
+        },
+        "MEDB3A_23": {
+            "valor": ".A",
+            "label": null
+        },
+        "MEDB3A_24": {
+            "valor": ".A",
+            "label": null
+        },
+        "MEDB3A_25": {
+            "valor": ".A",
+            "label": null
+        },
+        "MEDB3A_26": {
+            "valor": ".A",
+            "label": null
+        },
+        "MEDB3A_27": {
+            "valor": ".A",
+            "label": null
+        },
+        "MEDB3A_28": {
+            "valor": ".A",
+            "label": null
+        },
+        "MEDB3A_29": {
+            "valor": ".A",
+            "label": null
+        },
+        "MEDB3A_30": {
+            "valor": ".A",
+            "label": null
+        },
+        "MEDB3_1": {
+            "valor": 1,
+            "label": null
+        },
+        "MEDB3_2": {
+            "valor": 1,
+            "label": null
+        },
+        "MEDB3_3": {
+            "valor": 1,
+            "label": null
+        },
+        "MEDB3_4": {
+            "valor": 1,
+            "label": null
+        },
+        "MEDB3_5": {
+            "valor": 1,
+            "label": null
+        },
+        "MEDB3_6": {
+            "valor": 1,
+            "label": null
+        },
+        "MEDB3_7": {
+            "valor": null,
+            "label": null
+        },
+        "MEDB3_8": {
+            "valor": null,
+            "label": null
+        },
+        "MEDB3_9": {
+            "valor": null,
+            "label": null
+        },
+        "MEDB3_10": {
+            "valor": null,
+            "label": null
+        },
+        "MEDB3_11": {
+            "valor": null,
+            "label": null
+        },
+        "MEDB3_12": {
+            "valor": null,
+            "label": null
+        },
+        "MEDB3_13": {
+            "valor": null,
+            "label": null
+        },
+        "MEDB3_14": {
+            "valor": null,
+            "label": null
+        },
+        "MEDB3_15": {
+            "valor": null,
+            "label": null
+        },
+        "MEDB3_16": {
+            "valor": null,
+            "label": null
+        },
+        "MEDB3_17": {
+            "valor": null,
+            "label": null
+        },
+        "MEDB3_18": {
+            "valor": null,
+            "label": null
+        },
+        "MEDB3_19": {
+            "valor": null,
+            "label": null
+        },
+        "MEDB3_20": {
+            "valor": null,
+            "label": null
+        },
+        "MEDB3_21": {
+            "valor": null,
+            "label": null
+        },
+        "MEDB3_22": {
+            "valor": null,
+            "label": null
+        },
+        "MEDB3_23": {
+            "valor": null,
+            "label": null
+        },
+        "MEDB3_24": {
+            "valor": null,
+            "label": null
+        },
+        "MEDB3_25": {
+            "valor": null,
+            "label": null
+        },
+        "MEDB3_26": {
+            "valor": null,
+            "label": null
+        },
+        "MEDB3_27": {
+            "valor": null,
+            "label": null
+        },
+        "MEDB3_28": {
+            "valor": null,
+            "label": null
+        },
+        "MEDB3_29": {
+            "valor": null,
+            "label": null
+        },
+        "MEDB3_30": {
+            "valor": null,
+            "label": null
+        },
+        "MEDB4_1": {
+            "valor": 1,
+            "label": null
+        },
+        "MEDB4_2": {
+            "valor": 1,
+            "label": null
+        },
+        "MEDB4_3": {
+            "valor": 1,
+            "label": null
+        },
+        "MEDB4_4": {
+            "valor": 1,
+            "label": null
+        },
+        "MEDB4_5": {
+            "valor": 1,
+            "label": null
+        },
+        "MEDB4_6": {
+            "valor": 1,
+            "label": null
+        },
+        "MEDB4_7": {
+            "valor": null,
+            "label": null
+        },
+        "MEDB4_8": {
+            "valor": null,
+            "label": null
+        },
+        "MEDB4_9": {
+            "valor": null,
+            "label": null
+        },
+        "MEDB4_10": {
+            "valor": null,
+            "label": null
+        },
+        "MEDB4_11": {
+            "valor": null,
+            "label": null
+        },
+        "MEDB4_12": {
+            "valor": null,
+            "label": null
+        },
+        "MEDB4_13": {
+            "valor": null,
+            "label": null
+        },
+        "MEDB4_14": {
+            "valor": null,
+            "label": null
+        },
+        "MEDB4_15": {
+            "valor": null,
+            "label": null
+        },
+        "MEDB4_16": {
+            "valor": null,
+            "label": null
+        },
+        "MEDB4_17": {
+            "valor": null,
+            "label": null
+        },
+        "MEDB4_18": {
+            "valor": null,
+            "label": null
+        },
+        "MEDB4_19": {
+            "valor": null,
+            "label": null
+        },
+        "MEDB4_20": {
+            "valor": null,
+            "label": null
+        },
+        "MEDB4_21": {
+            "valor": null,
+            "label": null
+        },
+        "MEDB4_22": {
+            "valor": null,
+            "label": null
+        },
+        "MEDB4_23": {
+            "valor": null,
+            "label": null
+        },
+        "MEDB4_24": {
+            "valor": null,
+            "label": null
+        },
+        "MEDB4_25": {
+            "valor": null,
+            "label": null
+        },
+        "MEDB4_26": {
+            "valor": null,
+            "label": null
+        },
+        "MEDB4_27": {
+            "valor": null,
+            "label": null
+        },
+        "MEDB4_28": {
+            "valor": null,
+            "label": null
+        },
+        "MEDB4_29": {
+            "valor": null,
+            "label": null
+        },
+        "MEDB4_30": {
+            "valor": null,
+            "label": null
+        },
+        "MEDB5_1": {
+            "valor": 0,
+            "label": null
+        },
+        "MEDB5_2": {
+            "valor": 0,
+            "label": null
+        },
+        "MEDB5_3": {
+            "valor": 0,
+            "label": null
+        },
+        "MEDB5_4": {
+            "valor": 0,
+            "label": null
+        },
+        "MEDB5_5": {
+            "valor": 0,
+            "label": null
+        },
+        "MEDB5_6": {
+            "valor": 0,
+            "label": null
+        },
+        "MEDB5_7": {
+            "valor": null,
+            "label": null
+        },
+        "MEDB5_8": {
+            "valor": null,
+            "label": null
+        },
+        "MEDB5_9": {
+            "valor": null,
+            "label": null
+        },
+        "MEDB5_10": {
+            "valor": null,
+            "label": null
+        },
+        "MEDB5_11": {
+            "valor": null,
+            "label": null
+        },
+        "MEDB5_12": {
+            "valor": null,
+            "label": null
+        },
+        "MEDB5_13": {
+            "valor": null,
+            "label": null
+        },
+        "MEDB5_14": {
+            "valor": null,
+            "label": null
+        },
+        "MEDB5_15": {
+            "valor": null,
+            "label": null
+        },
+        "MEDB5_16": {
+            "valor": null,
+            "label": null
+        },
+        "MEDB5_17": {
+            "valor": null,
+            "label": null
+        },
+        "MEDB5_18": {
+            "valor": null,
+            "label": null
+        },
+        "MEDB5_19": {
+            "valor": null,
+            "label": null
+        },
+        "MEDB5_20": {
+            "valor": null,
+            "label": null
+        },
+        "MEDB5_21": {
+            "valor": null,
+            "label": null
+        },
+        "MEDB5_22": {
+            "valor": null,
+            "label": null
+        },
+        "MEDB5_23": {
+            "valor": null,
+            "label": null
+        },
+        "MEDB5_24": {
+            "valor": null,
+            "label": null
+        },
+        "MEDB5_25": {
+            "valor": null,
+            "label": null
+        },
+        "MEDB5_26": {
+            "valor": null,
+            "label": null
+        },
+        "MEDB5_27": {
+            "valor": null,
+            "label": null
+        },
+        "MEDB5_28": {
+            "valor": null,
+            "label": null
+        },
+        "MEDB5_29": {
+            "valor": null,
+            "label": null
+        },
+        "MEDB5_30": {
+            "valor": null,
+            "label": null
+        },
+        "MEDB6_1": {
+            "valor": 1,
+            "label": null
+        },
+        "MEDB6_2": {
+            "valor": 1,
+            "label": null
+        },
+        "MEDB6_3": {
+            "valor": 1,
+            "label": null
+        },
+        "MEDB6_4": {
+            "valor": 1,
+            "label": null
+        },
+        "MEDB6_5": {
+            "valor": 1,
+            "label": null
+        },
+        "MEDB6_6": {
+            "valor": 1,
+            "label": null
+        },
+        "MEDB6_7": {
+            "valor": null,
+            "label": null
+        },
+        "MEDB6_8": {
+            "valor": null,
+            "label": null
+        },
+        "MEDB6_9": {
+            "valor": null,
+            "label": null
+        },
+        "MEDB6_10": {
+            "valor": null,
+            "label": null
+        },
+        "MEDB6_11": {
+            "valor": null,
+            "label": null
+        },
+        "MEDB6_12": {
+            "valor": null,
+            "label": null
+        },
+        "MEDB6_13": {
+            "valor": null,
+            "label": null
+        },
+        "MEDB6_14": {
+            "valor": null,
+            "label": null
+        },
+        "MEDB6_15": {
+            "valor": null,
+            "label": null
+        },
+        "MEDB6_16": {
+            "valor": null,
+            "label": null
+        },
+        "MEDB6_17": {
+            "valor": null,
+            "label": null
+        },
+        "MEDB6_18": {
+            "valor": null,
+            "label": null
+        },
+        "MEDB6_19": {
+            "valor": null,
+            "label": null
+        },
+        "MEDB6_20": {
+            "valor": null,
+            "label": null
+        },
+        "MEDB6_21": {
+            "valor": null,
+            "label": null
+        },
+        "MEDB6_22": {
+            "valor": null,
+            "label": null
+        },
+        "MEDB6_23": {
+            "valor": null,
+            "label": null
+        },
+        "MEDB6_24": {
+            "valor": null,
+            "label": null
+        },
+        "MEDB6_25": {
+            "valor": null,
+            "label": null
+        },
+        "MEDB6_26": {
+            "valor": null,
+            "label": null
+        },
+        "MEDB6_27": {
+            "valor": null,
+            "label": null
+        },
+        "MEDB6_28": {
+            "valor": null,
+            "label": null
+        },
+        "MEDB6_29": {
+            "valor": null,
+            "label": null
+        },
+        "MEDB6_30": {
+            "valor": null,
+            "label": null
+        },
+        "MEDB7A_1": {
+            "valor": 25,
+            "label": null
+        },
+        "MEDB7A_2": {
+            "valor": 50,
+            "label": null
+        },
+        "MEDB7A_3": {
+            "valor": 50,
+            "label": null
+        },
+        "MEDB7A_4": {
+            "valor": 25,
+            "label": null
+        },
+        "MEDB7A_5": {
+            "valor": 850,
+            "label": null
+        },
+        "MEDB7A_6": {
+            "valor": 100,
+            "label": null
+        },
+        "MEDB7A_7": {
+            "valor": null,
+            "label": null
+        },
+        "MEDB7A_8": {
+            "valor": null,
+            "label": null
+        },
+        "MEDB7A_9": {
+            "valor": null,
+            "label": null
+        },
+        "MEDB7A_10": {
+            "valor": null,
+            "label": null
+        },
+        "MEDB7A_11": {
+            "valor": null,
+            "label": null
+        },
+        "MEDB7A_12": {
+            "valor": null,
+            "label": null
+        },
+        "MEDB7A_13": {
+            "valor": null,
+            "label": null
+        },
+        "MEDB7A_14": {
+            "valor": null,
+            "label": null
+        },
+        "MEDB7A_15": {
+            "valor": null,
+            "label": null
+        },
+        "MEDB7A_16": {
+            "valor": null,
+            "label": null
+        },
+        "MEDB7A_17": {
+            "valor": null,
+            "label": null
+        },
+        "MEDB7A_18": {
+            "valor": null,
+            "label": null
+        },
+        "MEDB7A_19": {
+            "valor": null,
+            "label": null
+        },
+        "MEDB7A_20": {
+            "valor": null,
+            "label": null
+        },
+        "MEDB7A_21": {
+            "valor": null,
+            "label": null
+        },
+        "MEDB7A_22": {
+            "valor": null,
+            "label": null
+        },
+        "MEDB7A_23": {
+            "valor": null,
+            "label": null
+        },
+        "MEDB7A_24": {
+            "valor": null,
+            "label": null
+        },
+        "MEDB7A_25": {
+            "valor": null,
+            "label": null
+        },
+        "MEDB7A_26": {
+            "valor": null,
+            "label": null
+        },
+        "MEDB7A_27": {
+            "valor": null,
+            "label": null
+        },
+        "MEDB7A_28": {
+            "valor": null,
+            "label": null
+        },
+        "MEDB7A_29": {
+            "valor": null,
+            "label": null
+        },
+        "MEDB7A_30": {
+            "valor": null,
+            "label": null
+        },
+        "MEDB7_1": {
+            "valor": "HIDROCLOROTIAZIDA",
+            "label": null
+        },
+        "MEDB7_2": {
+            "valor": "ATENOLOL",
+            "label": null
+        },
+        "MEDB7_3": {
+            "valor": "LOSARTANA POTÁSSICA",
+            "label": null
+        },
+        "MEDB7_4": {
+            "valor": "ESPIRONOLACTONA",
+            "label": null
+        },
+        "MEDB7_5": {
+            "valor": "CLORIDRATO DE METFORMINA",
+            "label": null
+        },
+        "MEDB7_6": {
+            "valor": "AAS INFANTIL",
+            "label": null
+        },
+        "MEDB7_7": {
+            "valor": ".P",
+            "label": null
+        },
+        "MEDB7_8": {
+            "valor": ".P",
+            "label": null
+        },
+        "MEDB7_9": {
+            "valor": ".P",
+            "label": null
+        },
+        "MEDB7_10": {
+            "valor": ".P",
+            "label": null
+        },
+        "MEDB7_11": {
+            "valor": ".P",
+            "label": null
+        },
+        "MEDB7_12": {
+            "valor": ".P",
+            "label": null
+        },
+        "MEDB7_13": {
+            "valor": ".P",
+            "label": null
+        },
+        "MEDB7_14": {
+            "valor": ".P",
+            "label": null
+        },
+        "MEDB7_15": {
+            "valor": ".P",
+            "label": null
+        },
+        "MEDB7_16": {
+            "valor": ".A",
+            "label": null
+        },
+        "MEDB7_17": {
+            "valor": ".A",
+            "label": null
+        },
+        "MEDB7_18": {
+            "valor": ".A",
+            "label": null
+        },
+        "MEDB7_19": {
+            "valor": ".A",
+            "label": null
+        },
+        "MEDB7_20": {
+            "valor": ".A",
+            "label": null
+        },
+        "MEDB7_21": {
+            "valor": ".A",
+            "label": null
+        },
+        "MEDB7_22": {
+            "valor": ".A",
+            "label": null
+        },
+        "MEDB7_23": {
+            "valor": ".A",
+            "label": null
+        },
+        "MEDB7_24": {
+            "valor": ".A",
+            "label": null
+        },
+        "MEDB7_25": {
+            "valor": ".A",
+            "label": null
+        },
+        "MEDB7_26": {
+            "valor": ".A",
+            "label": null
+        },
+        "MEDB7_27": {
+            "valor": ".A",
+            "label": null
+        },
+        "MEDB7_28": {
+            "valor": ".A",
+            "label": null
+        },
+        "MEDB7_29": {
+            "valor": ".A",
+            "label": null
+        },
+        "MEDB7_30": {
+            "valor": ".A",
+            "label": null
+        },
+        "MEDB8A_1": {
+            "valor": 1,
+            "label": null
+        },
+        "MEDB8A_2": {
+            "valor": 1,
+            "label": null
+        },
+        "MEDB8A_3": {
+            "valor": 1,
+            "label": null
+        },
+        "MEDB8A_4": {
+            "valor": 1,
+            "label": null
+        },
+        "MEDB8A_5": {
+            "valor": 1,
+            "label": null
+        },
+        "MEDB8A_6": {
+            "valor": 1,
+            "label": null
+        },
+        "MEDB8A_7": {
+            "valor": null,
+            "label": null
+        },
+        "MEDB8A_8": {
+            "valor": null,
+            "label": null
+        },
+        "MEDB8A_9": {
+            "valor": null,
+            "label": null
+        },
+        "MEDB8A_10": {
+            "valor": null,
+            "label": null
+        },
+        "MEDB8A_11": {
+            "valor": null,
+            "label": null
+        },
+        "MEDB8A_12": {
+            "valor": null,
+            "label": null
+        },
+        "MEDB8A_13": {
+            "valor": null,
+            "label": null
+        },
+        "MEDB8A_14": {
+            "valor": null,
+            "label": null
+        },
+        "MEDB8A_15": {
+            "valor": null,
+            "label": null
+        },
+        "MEDB8A_16": {
+            "valor": null,
+            "label": null
+        },
+        "MEDB8A_17": {
+            "valor": null,
+            "label": null
+        },
+        "MEDB8A_18": {
+            "valor": null,
+            "label": null
+        },
+        "MEDB8A_19": {
+            "valor": null,
+            "label": null
+        },
+        "MEDB8A_20": {
+            "valor": null,
+            "label": null
+        },
+        "MEDB8A_21": {
+            "valor": null,
+            "label": null
+        },
+        "MEDB8A_22": {
+            "valor": null,
+            "label": null
+        },
+        "MEDB8A_23": {
+            "valor": null,
+            "label": null
+        },
+        "MEDB8A_24": {
+            "valor": null,
+            "label": null
+        },
+        "MEDB8A_25": {
+            "valor": null,
+            "label": null
+        },
+        "MEDB8A_26": {
+            "valor": null,
+            "label": null
+        },
+        "MEDB8A_27": {
+            "valor": null,
+            "label": null
+        },
+        "MEDB8A_28": {
+            "valor": null,
+            "label": null
+        },
+        "MEDB8A_29": {
+            "valor": null,
+            "label": null
+        },
+        "MEDB8A_30": {
+            "valor": null,
+            "label": null
+        },
+        "MEDB8B_1": {
+            "valor": 1,
+            "label": null
+        },
+        "MEDB8B_2": {
+            "valor": 1,
+            "label": null
+        },
+        "MEDB8B_3": {
+            "valor": 2,
+            "label": null
+        },
+        "MEDB8B_4": {
+            "valor": 1,
+            "label": null
+        },
+        "MEDB8B_5": {
+            "valor": 3,
+            "label": null
+        },
+        "MEDB8B_6": {
+            "valor": 1,
+            "label": null
+        },
+        "MEDB8B_7": {
+            "valor": null,
+            "label": null
+        },
+        "MEDB8B_8": {
+            "valor": null,
+            "label": null
+        },
+        "MEDB8B_9": {
+            "valor": null,
+            "label": null
+        },
+        "MEDB8B_10": {
+            "valor": null,
+            "label": null
+        },
+        "MEDB8B_11": {
+            "valor": null,
+            "label": null
+        },
+        "MEDB8B_12": {
+            "valor": null,
+            "label": null
+        },
+        "MEDB8B_13": {
+            "valor": null,
+            "label": null
+        },
+        "MEDB8B_14": {
+            "valor": null,
+            "label": null
+        },
+        "MEDB8B_15": {
+            "valor": null,
+            "label": null
+        },
+        "MEDB8B_16": {
+            "valor": null,
+            "label": null
+        },
+        "MEDB8B_17": {
+            "valor": null,
+            "label": null
+        },
+        "MEDB8B_18": {
+            "valor": null,
+            "label": null
+        },
+        "MEDB8B_19": {
+            "valor": null,
+            "label": null
+        },
+        "MEDB8B_20": {
+            "valor": null,
+            "label": null
+        },
+        "MEDB8B_21": {
+            "valor": null,
+            "label": null
+        },
+        "MEDB8B_22": {
+            "valor": null,
+            "label": null
+        },
+        "MEDB8B_23": {
+            "valor": null,
+            "label": null
+        },
+        "MEDB8B_24": {
+            "valor": null,
+            "label": null
+        },
+        "MEDB8B_25": {
+            "valor": null,
+            "label": null
+        },
+        "MEDB8B_26": {
+            "valor": null,
+            "label": null
+        },
+        "MEDB8B_27": {
+            "valor": null,
+            "label": null
+        },
+        "MEDB8B_28": {
+            "valor": null,
+            "label": null
+        },
+        "MEDB8B_29": {
+            "valor": null,
+            "label": null
+        },
+        "MEDB8B_30": {
+            "valor": null,
+            "label": null
+        },
+        "MEDB8C_1": {
+            "valor": 1,
+            "label": null
+        },
+        "MEDB8C_2": {
+            "valor": 1,
+            "label": null
+        },
+        "MEDB8C_3": {
+            "valor": 1,
+            "label": null
+        },
+        "MEDB8C_4": {
+            "valor": 1,
+            "label": null
+        },
+        "MEDB8C_5": {
+            "valor": 1,
+            "label": null
+        },
+        "MEDB8C_6": {
+            "valor": 1,
+            "label": null
+        },
+        "MEDB8C_7": {
+            "valor": null,
+            "label": null
+        },
+        "MEDB8C_8": {
+            "valor": null,
+            "label": null
+        },
+        "MEDB8C_9": {
+            "valor": null,
+            "label": null
+        },
+        "MEDB8C_10": {
+            "valor": null,
+            "label": null
+        },
+        "MEDB8C_11": {
+            "valor": null,
+            "label": null
+        },
+        "MEDB8C_12": {
+            "valor": null,
+            "label": null
+        },
+        "MEDB8C_13": {
+            "valor": null,
+            "label": null
+        },
+        "MEDB8C_14": {
+            "valor": null,
+            "label": null
+        },
+        "MEDB8C_15": {
+            "valor": null,
+            "label": null
+        },
+        "MEDB8C_16": {
+            "valor": null,
+            "label": null
+        },
+        "MEDB8C_17": {
+            "valor": null,
+            "label": null
+        },
+        "MEDB8C_18": {
+            "valor": null,
+            "label": null
+        },
+        "MEDB8C_19": {
+            "valor": null,
+            "label": null
+        },
+        "MEDB8C_20": {
+            "valor": null,
+            "label": null
+        },
+        "MEDB8C_21": {
+            "valor": null,
+            "label": null
+        },
+        "MEDB8C_22": {
+            "valor": null,
+            "label": null
+        },
+        "MEDB8C_23": {
+            "valor": null,
+            "label": null
+        },
+        "MEDB8C_24": {
+            "valor": null,
+            "label": null
+        },
+        "MEDB8C_25": {
+            "valor": null,
+            "label": null
+        },
+        "MEDB8C_26": {
+            "valor": null,
+            "label": null
+        },
+        "MEDB8C_27": {
+            "valor": null,
+            "label": null
+        },
+        "MEDB8C_28": {
+            "valor": null,
+            "label": null
+        },
+        "MEDB8C_29": {
+            "valor": null,
+            "label": null
+        },
+        "MEDB8C_30": {
+            "valor": null,
+            "label": null
+        },
+        "MEDB9A_1": {
+            "valor": 1,
+            "label": null
+        },
+        "MEDB9A_2": {
+            "valor": 1,
+            "label": null
+        },
+        "MEDB9A_3": {
+            "valor": 1,
+            "label": null
+        },
+        "MEDB9A_4": {
+            "valor": 1,
+            "label": null
+        },
+        "MEDB9A_5": {
+            "valor": 1,
+            "label": null
+        },
+        "MEDB9A_6": {
+            "valor": 1,
+            "label": null
+        },
+        "MEDB9A_7": {
+            "valor": null,
+            "label": null
+        },
+        "MEDB9A_8": {
+            "valor": null,
+            "label": null
+        },
+        "MEDB9A_9": {
+            "valor": null,
+            "label": null
+        },
+        "MEDB9A_10": {
+            "valor": null,
+            "label": null
+        },
+        "MEDB9A_11": {
+            "valor": null,
+            "label": null
+        },
+        "MEDB9A_12": {
+            "valor": null,
+            "label": null
+        },
+        "MEDB9A_13": {
+            "valor": null,
+            "label": null
+        },
+        "MEDB9A_14": {
+            "valor": null,
+            "label": null
+        },
+        "MEDB9A_15": {
+            "valor": null,
+            "label": null
+        },
+        "MEDB9A_16": {
+            "valor": null,
+            "label": null
+        },
+        "MEDB9A_17": {
+            "valor": null,
+            "label": null
+        },
+        "MEDB9A_18": {
+            "valor": null,
+            "label": null
+        },
+        "MEDB9A_19": {
+            "valor": null,
+            "label": null
+        },
+        "MEDB9A_20": {
+            "valor": null,
+            "label": null
+        },
+        "MEDB9A_21": {
+            "valor": null,
+            "label": null
+        },
+        "MEDB9A_22": {
+            "valor": null,
+            "label": null
+        },
+        "MEDB9A_23": {
+            "valor": null,
+            "label": null
+        },
+        "MEDB9A_24": {
+            "valor": null,
+            "label": null
+        },
+        "MEDB9A_25": {
+            "valor": null,
+            "label": null
+        },
+        "MEDB9A_26": {
+            "valor": null,
+            "label": null
+        },
+        "MEDB9A_27": {
+            "valor": null,
+            "label": null
+        },
+        "MEDB9A_28": {
+            "valor": null,
+            "label": null
+        },
+        "MEDB9A_29": {
+            "valor": null,
+            "label": null
+        },
+        "MEDB9A_30": {
+            "valor": null,
+            "label": null
+        },
+        "MEDB9B_1": {
+            "valor": 1,
+            "label": null
+        },
+        "MEDB9B_2": {
+            "valor": 1,
+            "label": null
+        },
+        "MEDB9B_3": {
+            "valor": 2,
+            "label": null
+        },
+        "MEDB9B_4": {
+            "valor": 1,
+            "label": null
+        },
+        "MEDB9B_5": {
+            "valor": 3,
+            "label": null
+        },
+        "MEDB9B_6": {
+            "valor": 1,
+            "label": null
+        },
+        "MEDB9B_7": {
+            "valor": null,
+            "label": null
+        },
+        "MEDB9B_8": {
+            "valor": null,
+            "label": null
+        },
+        "MEDB9B_9": {
+            "valor": null,
+            "label": null
+        },
+        "MEDB9B_10": {
+            "valor": null,
+            "label": null
+        },
+        "MEDB9B_11": {
+            "valor": null,
+            "label": null
+        },
+        "MEDB9B_12": {
+            "valor": null,
+            "label": null
+        },
+        "MEDB9B_13": {
+            "valor": null,
+            "label": null
+        },
+        "MEDB9B_14": {
+            "valor": null,
+            "label": null
+        },
+        "MEDB9B_15": {
+            "valor": null,
+            "label": null
+        },
+        "MEDB9B_16": {
+            "valor": null,
+            "label": null
+        },
+        "MEDB9B_17": {
+            "valor": null,
+            "label": null
+        },
+        "MEDB9B_18": {
+            "valor": null,
+            "label": null
+        },
+        "MEDB9B_19": {
+            "valor": null,
+            "label": null
+        },
+        "MEDB9B_20": {
+            "valor": null,
+            "label": null
+        },
+        "MEDB9B_21": {
+            "valor": null,
+            "label": null
+        },
+        "MEDB9B_22": {
+            "valor": null,
+            "label": null
+        },
+        "MEDB9B_23": {
+            "valor": null,
+            "label": null
+        },
+        "MEDB9B_24": {
+            "valor": null,
+            "label": null
+        },
+        "MEDB9B_25": {
+            "valor": null,
+            "label": null
+        },
+        "MEDB9B_26": {
+            "valor": null,
+            "label": null
+        },
+        "MEDB9B_27": {
+            "valor": null,
+            "label": null
+        },
+        "MEDB9B_28": {
+            "valor": null,
+            "label": null
+        },
+        "MEDB9B_29": {
+            "valor": null,
+            "label": null
+        },
+        "MEDB9B_30": {
+            "valor": null,
+            "label": null
+        },
+        "MEDB9C_1": {
+            "valor": 1,
+            "label": null
+        },
+        "MEDB9C_2": {
+            "valor": 1,
+            "label": null
+        },
+        "MEDB9C_3": {
+            "valor": 1,
+            "label": null
+        },
+        "MEDB9C_4": {
+            "valor": 1,
+            "label": null
+        },
+        "MEDB9C_5": {
+            "valor": 1,
+            "label": null
+        },
+        "MEDB9C_6": {
+            "valor": 1,
+            "label": null
+        },
+        "MEDB9C_7": {
+            "valor": null,
+            "label": null
+        },
+        "MEDB9C_8": {
+            "valor": null,
+            "label": null
+        },
+        "MEDB9C_9": {
+            "valor": null,
+            "label": null
+        },
+        "MEDB9C_10": {
+            "valor": null,
+            "label": null
+        },
+        "MEDB9C_11": {
+            "valor": null,
+            "label": null
+        },
+        "MEDB9C_12": {
+            "valor": null,
+            "label": null
+        },
+        "MEDB9C_13": {
+            "valor": null,
+            "label": null
+        },
+        "MEDB9C_14": {
+            "valor": null,
+            "label": null
+        },
+        "MEDB9C_15": {
+            "valor": null,
+            "label": null
+        },
+        "MEDB9C_16": {
+            "valor": null,
+            "label": null
+        },
+        "MEDB9C_17": {
+            "valor": null,
+            "label": null
+        },
+        "MEDB9C_18": {
+            "valor": null,
+            "label": null
+        },
+        "MEDB9C_19": {
+            "valor": null,
+            "label": null
+        },
+        "MEDB9C_20": {
+            "valor": null,
+            "label": null
+        },
+        "MEDB9C_21": {
+            "valor": null,
+            "label": null
+        },
+        "MEDB9C_22": {
+            "valor": null,
+            "label": null
+        },
+        "MEDB9C_23": {
+            "valor": null,
+            "label": null
+        },
+        "MEDB9C_24": {
+            "valor": null,
+            "label": null
+        },
+        "MEDB9C_25": {
+            "valor": null,
+            "label": null
+        },
+        "MEDB9C_26": {
+            "valor": null,
+            "label": null
+        },
+        "MEDB9C_27": {
+            "valor": null,
+            "label": null
+        },
+        "MEDB9C_28": {
+            "valor": null,
+            "label": null
+        },
+        "MEDB9C_29": {
+            "valor": null,
+            "label": null
+        },
+        "MEDB9C_30": {
+            "valor": null,
+            "label": null
+        },
+        "MONB1D1": {
+            "valor": 1,
+            "label": null
+        },
+        "MONB1D2": {
+            "valor": 1,
+            "label": null
+        },
+        "MONB1D3": {
+            "valor": 0,
+            "label": null
+        },
+        "MONB1D2QP": {
+            "valor": 0,
+            "label": null
+        },
+        "MONB1DD": {
+            "valor": 1,
+            "label": null
+        },
+        "MONB1E1": {
+            "valor": 1,
+            "label": null
+        },
+        "MONB1E2": {
+            "valor": 1,
+            "label": null
+        },
+        "MONB1E3": {
+            "valor": 1,
+            "label": null
+        },
+        "MONB1E1QP": {
+            "valor": 0,
+            "label": null
+        },
+        "MONB1ED": {
+            "valor": 0,
+            "label": null
+        },
+        "MONB2D1": {
+            "valor": 1,
+            "label": null
+        },
+        "MONB2D2": {
+            "valor": 0,
+            "label": null
+        },
+        "MONB2D3": {
+            "valor": 1,
+            "label": null
+        },
+        "MONB2DD": {
+            "valor": 1,
+            "label": null
+        },
+        "MONB2DDQP": {
+            "valor": 1,
+            "label": null
+        },
+        "MONB2E1": {
+            "valor": 1,
+            "label": null
+        },
+        "MONB2E2": {
+            "valor": 1,
+            "label": null
+        },
+        "MONB2E3": {
+            "valor": 1,
+            "label": null
+        },
+        "MONB2E2QP": {
+            "valor": 0,
+            "label": null
+        },
+        "MONB2ED": {
+            "valor": 1,
+            "label": null
+        },
+        "MONB3D1": {
+            "valor": 0,
+            "label": null
+        },
+        "MONB3D2": {
+            "valor": 1,
+            "label": null
+        },
+        "MONB3D3": {
+            "valor": 0,
+            "label": null
+        },
+        "MONB3D3QP": {
+            "valor": null,
+            "label": null
+        },
+        "MONB3DD": {
+            "valor": 1,
+            "label": null
+        },
+        "MONB3E1": {
+            "valor": 1,
+            "label": null
+        },
+        "MONB3E2": {
+            "valor": 0,
+            "label": null
+        },
+        "MONB3E3": {
+            "valor": 1,
+            "label": null
+        },
+        "MONB3ED": {
+            "valor": 1,
+            "label": null
+        },
+        "MONB3EDQP": {
+            "valor": 0,
+            "label": null
+        },
+        "MONB4D1": {
+            "valor": 1,
+            "label": null
+        },
+        "MONB4D2": {
+            "valor": 1,
+            "label": null
+        },
+        "MONB4D3": {
+            "valor": 1,
+            "label": null
+        },
+        "MONB4D1QP": {
+            "valor": 1,
+            "label": null
+        },
+        "MONB4DD": {
+            "valor": 0,
+            "label": null
+        },
+        "MONB4E1": {
+            "valor": 1,
+            "label": null
+        },
+        "MONB4E2": {
+            "valor": 1,
+            "label": null
+        },
+        "MONB4E3": {
+            "valor": 0,
+            "label": null
+        },
+        "MONB4E2QP": {
+            "valor": 0,
+            "label": null
+        },
+        "MONB4ED": {
+            "valor": 0,
+            "label": null
+        },
+        "MONBALT": {
+            "valor": 0,
+            "label": null
+        },
+        "MONBALTQ": {
+            "valor": ".P",
+            "label": null
+        },
+        "TCLEBAFERIDOR": {
+            "valor": 467,
+            "label": null
+        },
+        "TCLEBDATAAPINI": {
+            "valor": " 11FEB14:22:00:00.000",
+            "label": null
+        },
+        "TCLEBDATADIGINI": {
+            "valor": " 12FEB14:12:03:51.447",
+            "label": null
+        },
+        "TCLEBDIGITADOR": {
+            "valor": 713,
+            "label": null
+        },
+        "RCPBAFERIDOR": {
+            "valor": 923,
+            "label": null
+        },
+        "RCPBDATAAPINI": {
+            "valor": " 12MAR14:07:25:00.000",
+            "label": null
+        },
+        "RCPBDATADIGINI": {
+            "valor": " 12MAR14:07:57:44.856",
+            "label": null
+        },
+        "RCPBDIGITADOR": {
+            "valor": 923,
+            "label": null
+        },
+        "ANTBAFERIDOR": {
+            "valor": 750,
+            "label": null
+        },
+        "ANTBDATAAPINI": {
+            "valor": " 13FEB14:06:31:00.000",
+            "label": null
+        },
+        "ANTBDATADIGINI": {
+            "valor": " 14APR14:11:17:47.839",
+            "label": null
+        },
+        "ANTBDIGITADOR": {
+            "valor": 750,
+            "label": null
+        },
+        "ECGBAFERIDOR": {
+            "valor": 750,
+            "label": null
+        },
+        "ECGBDATAAPINI": {
+            "valor": " 12MAR14:09:37:00.000",
+            "label": null
+        },
+        "ECGBDATADIGINI": {
+            "valor": " 14APR14:11:19:59.018",
+            "label": null
+        },
+        "ECGBDIGITADOR": {
+            "valor": 750,
+            "label": null
+        },
+        "FORBAFERIDOR": {
+            "valor": 750,
+            "label": null
+        },
+        "FORBDATAAPINI": {
+            "valor": " 12MAR14:09:49:00.000",
+            "label": null
+        },
+        "FORBDATADIGINI": {
+            "valor": " 14APR14:11:17:06.971",
+            "label": null
+        },
+        "FORBDIGITADOR": {
+            "valor": 750,
+            "label": null
+        },
+        "PASBAFERIDOR": {
+            "valor": 750,
+            "label": null
+        },
+        "PASBDATAAPINI": {
+            "valor": " 12MAR14:07:38:00.000",
+            "label": null
+        },
+        "PASBDATADIGINI": {
+            "valor": " 14APR14:11:21:45.286",
+            "label": null
+        },
+        "PASBDIGITADOR": {
+            "valor": 750,
+            "label": null
+        },
+        "CSJEBAFERIDOR": {
+            "valor": 489,
+            "label": null
+        },
+        "CSJEBDATAAPINI": {
+            "valor": " 12MAR14:08:01:21.947",
+            "label": null
+        },
+        "CSJEBDATADIGINI": {
+            "valor": null,
+            "label": null
+        },
+        "CSJEBDIGITADOR": {
+            "valor": null,
+            "label": null
+        },
+        "CSPOBAFERIDOR": {
+            "valor": null,
+            "label": null
+        },
+        "CSPOBDATAAPINI": {
+            "valor": null,
+            "label": null
+        },
+        "CSPOBDATADIGINI": {
+            "valor": null,
+            "label": null
+        },
+        "CSPOBDIGITADOR": {
+            "valor": null,
+            "label": null
+        },
+        "SONBAFERIDOR": {
+            "valor": 750,
+            "label": null
+        },
+        "SONBDATAAPINI": {
+            "valor": " 12MAR14:09:22:32.602",
+            "label": null
+        },
+        "SONBDATADIGINI": {
+            "valor": null,
+            "label": null
+        },
+        "SONBDIGITADOR": {
+            "valor": null,
+            "label": null
+        },
+        "CABBAFERIDOR": {
+            "valor": null,
+            "label": null
+        },
+        "CABBDATAAPINI": {
+            "valor": null,
+            "label": null
+        },
+        "CABBDATADIGINI": {
+            "valor": null,
+            "label": null
+        },
+        "CABBDIGITADOR": {
+            "valor": null,
+            "label": null
+        },
+        "RETBAFERIDOR": {
+            "valor": null,
+            "label": null
+        },
+        "RETBDATAAPINI": {
+            "valor": null,
+            "label": null
+        },
+        "RETBDATADIGINI": {
+            "valor": null,
+            "label": null
+        },
+        "RETBDIGITADOR": {
+            "valor": null,
+            "label": null
+        },
+        "AFIBAFERIDOR": {
+            "valor": 468,
+            "label": null
+        },
+        "AFIBDATAAPINI": {
+            "valor": " 12MAR14:09:13:21.356",
+            "label": null
+        },
+        "AFIBDATADIGINI": {
+            "valor": null,
+            "label": null
+        },
+        "AFIBDIGITADOR": {
+            "valor": null,
+            "label": null
+        },
+        "CALBAFERIDOR": {
+            "valor": 750,
+            "label": null
+        },
+        "CALBDATAAPINI": {
+            "valor": " 12MAR14:09:17:31.427",
+            "label": null
+        },
+        "CALBDATADIGINI": {
+            "valor": null,
+            "label": null
+        },
+        "CALBDIGITADOR": {
+            "valor": null,
+            "label": null
+        },
+        "CISBDIGITADOR": {
+            "valor": null,
+            "label": null
+        },
+        "CISBAFERIDOR": {
+            "valor": 750,
+            "label": null
+        },
+        "CISBDATADIGINI": {
+            "valor": null,
+            "label": null
+        },
+        "CISBDATAAPINI": {
+            "valor": " 12MAR14:09:18:00.741",
+            "label": null
+        },
+        "RGSCBDIGITADOR": {
+            "valor": null,
+            "label": null
+        },
+        "RGSCBAFERIDOR": {
+            "valor": null,
+            "label": null
+        },
+        "RGSCBDATADIGINI": {
+            "valor": null,
+            "label": null
+        },
+        "RGSCBDATAAPINI": {
+            "valor": null,
+            "label": null
+        },
+        "DIEBAFERIDOR": {
+            "valor": 750,
+            "label": null
+        },
+        "DIEBDATAAPINI": {
+            "valor": " 12MAR14:09:16:48.269",
+            "label": null
+        },
+        "DIEBDATADIGINI": {
+            "valor": null,
+            "label": null
+        },
+        "DIEBDIGITADOR": {
+            "valor": null,
+            "label": null
+        },
+        "FCOBAFERIDOR": {
+            "valor": 468,
+            "label": null
+        },
+        "FCOBDATAAPINI": {
+            "valor": " 12MAR14:08:30:00.000",
+            "label": null
+        },
+        "FCOBDATADIGINI": {
+            "valor": " 12MAR14:08:49:16.308",
+            "label": null
+        },
+        "FCOBDIGITADOR": {
+            "valor": 750,
+            "label": null
+        },
+        "HMPBAFERIDOR": {
+            "valor": 750,
+            "label": null
+        },
+        "HMPBDATAAPINI": {
+            "valor": " 12MAR14:08:29:34.597",
+            "label": null
+        },
+        "HMPBDATADIGINI": {
+            "valor": null,
+            "label": null
+        },
+        "HMPBDIGITADOR": {
+            "valor": null,
+            "label": null
+        },
+        "HOCBAFERIDOR": {
+            "valor": 750,
+            "label": null
+        },
+        "HOCBDATAAPINI": {
+            "valor": " 12MAR14:08:55:48.660",
+            "label": null
+        },
+        "HOCBDATADIGINI": {
+            "valor": null,
+            "label": null
+        },
+        "HOCBDIGITADOR": {
+            "valor": null,
+            "label": null
+        },
+        "HdataParticipantSBAFERIDOR": {
+            "valor": 750,
+            "label": null
+        },
+        "HdataParticipantSBDATAAPINI": {
+            "valor": " 12MAR14:09:12:09.959",
+            "label": null
+        },
+        "HdataParticipantSBDATADIGINI": {
+            "valor": null,
+            "label": null
+        },
+        "HdataParticipantSBDIGITADOR": {
+            "valor": null,
+            "label": null
+        },
+        "MULBAFERIDOR": {
+            "valor": null,
+            "label": null
+        },
+        "MULBDATAAPINI": {
+            "valor": null,
+            "label": null
+        },
+        "MULBDATADIGINI": {
+            "valor": null,
+            "label": null
+        },
+        "MULBDIGITADOR": {
+            "valor": null,
+            "label": null
+        },
+        "PCOBAFERIDOR": {
+            "valor": 750,
+            "label": null
+        },
+        "PCOBDATAAPINI": {
+            "valor": " 12MAR14:09:24:01.473",
+            "label": null
+        },
+        "PCOBDATADIGINI": {
+            "valor": null,
+            "label": null
+        },
+        "PCOBDIGITADOR": {
+            "valor": null,
+            "label": null
+        },
+        "PSEBAFERIDOR": {
+            "valor": 750,
+            "label": null
+        },
+        "PSEBDATAAPINI": {
+            "valor": " 12MAR14:08:49:22.474",
+            "label": null
+        },
+        "PSEBDATADIGINI": {
+            "valor": null,
+            "label": null
+        },
+        "PSEBDIGITADOR": {
+            "valor": null,
+            "label": null
+        },
+        "SdataParticipantDBAFERIDOR": {
+            "valor": 750,
+            "label": null
+        },
+        "SdataParticipantDBDATAAPINI": {
+            "valor": " 12MAR14:09:11:32.664",
+            "label": null
+        },
+        "SdataParticipantDBDATADIGINI": {
+            "valor": null,
+            "label": null
+        },
+        "SdataParticipantDBDIGITADOR": {
+            "valor": null,
+            "label": null
+        },
+        "dataParticipantIFBAFERIDOR": {
+            "valor": 750,
+            "label": null
+        },
+        "dataParticipantIFBDATAAPINI": {
+            "valor": " 12MAR14:08:51:44.327",
+            "label": null
+        },
+        "dataParticipantIFBDATADIGINI": {
+            "valor": null,
+            "label": null
+        },
+        "dataParticipantIFBDIGITADOR": {
+            "valor": null,
+            "label": null
+        },
+        "dataParticipantIZBAFERIDOR": {
+            "valor": 750,
+            "label": null
+        },
+        "dataParticipantIZBDATAAPINI": {
+            "valor": " 12MAR14:09:05:02.331",
+            "label": null
+        },
+        "dataParticipantIZBDATADIGINI": {
+            "valor": null,
+            "label": null
+        },
+        "dataParticipantIZBDIGITADOR": {
+            "valor": null,
+            "label": null
+        },
+        "MEDBAFERIDOR": {
+            "valor": 750,
+            "label": null
+        },
+        "MEDBDATAAPINI": {
+            "valor": " 12MAR14:09:28:40.931",
+            "label": null
+        },
+        "MEDBDATADIGINI": {
+            "valor": null,
+            "label": null
+        },
+        "MEDBDIGITADOR": {
+            "valor": null,
+            "label": null
+        },
+        "MONBAFERIDOR": {
+            "valor": 750,
+            "label": null
+        },
+        "MONBDATAAPINI": {
+            "valor": " 12MAR14:09:26:00.000",
+            "label": null
+        },
+        "MONBDATADIGINI": {
+            "valor": " 14APR14:11:18:36.311",
+            "label": null
+        },
+        "MONBDIGITADOR": {
+            "valor": 750,
+            "label": null
+        },
+        "dataParticipantERSAOB_TCLE": {
+            "valor": "B",
+            "label": null
+        },
+        "dataParticipantERSAOB_AFI": {
+            "valor": "B",
+            "label": null
+        },
+        "dataParticipantERSAOB_ANT": {
+            "valor": "B",
+            "label": null
+        },
+        "dataParticipantERSAOB_CAB": {
+            "valor": ".A",
+            "label": null
+        },
+        "dataParticipantERSAOB_CAL": {
+            "valor": "B",
+            "label": null
+        },
+        "dataParticipantERSAOB_CIS": {
+            "valor": "B",
+            "label": null
+        },
+        "dataParticipantERSAOB_DIE": {
+            "valor": "B",
+            "label": null
+        },
+        "dataParticipantERSAOB_ECG": {
+            "valor": "B",
+            "label": null
+        },
+        "dataParticipantERSAOB_FCO": {
+            "valor": "B",
+            "label": null
+        },
+        "dataParticipantERSAOB_FOR": {
+            "valor": "B",
+            "label": null
+        },
+        "dataParticipantERSAOB_HMP": {
+            "valor": "B",
+            "label": null
+        },
+        "dataParticipantERSAOB_HOC": {
+            "valor": "B",
+            "label": null
+        },
+        "dataParticipantERSAOB_HdataParticipantS": {
+            "valor": "B",
+            "label": null
+        },
+        "dataParticipantERSAOB_MED": {
+            "valor": "B",
+            "label": null
+        },
+        "dataParticipantERSAOB_MON": {
+            "valor": "B",
+            "label": null
+        },
+        "dataParticipantERSAOB_MUL": {
+            "valor": ".A",
+            "label": null
+        },
+        "dataParticipantERSAOB_PAS": {
+            "valor": "B",
+            "label": null
+        },
+        "dataParticipantERSAOB_PCO": {
+            "valor": "B",
+            "label": null
+        },
+        "dataParticipantERSAOB_RCP": {
+            "valor": "B",
+            "label": null
+        },
+        "dataParticipantERSAOB_RET": {
+            "valor": ".A",
+            "label": null
+        },
+        "dataParticipantERSAOB_SON": {
+            "valor": "B",
+            "label": null
+        },
+        "dataParticipantERSAOB_SdataParticipantD": {
+            "valor": "B",
+            "label": null
+        },
+        "dataParticipantERSAOB_dataParticipantIZ": {
+            "valor": "B",
+            "label": null
+        },
+        "dataParticipantERSAOB_dataParticipantIF": {
+            "valor": "B",
+            "label": null
+        },
+        "dataParticipantERSAOB_PSE": {
+            "valor": "B",
+            "label": null
+        },
+        "dataParticipantERSAOB_CSJE": {
+            "valor": "B",
+            "label": null
+        },
+        "dataParticipantERSAOB_CSPO": {
+            "valor": ".A",
+            "label": null
+        },
+        "dataParticipantERSAOB_RGSC": {
+            "valor": ".A",
+            "label": null
+        },
+        "BIOB9ALTQOU": {
+            "valor": ".P",
+            "label": null
+        }
+    }
+}
