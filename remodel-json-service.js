@@ -15,11 +15,10 @@ var RemodelJSonService = function() {
 
         originListParticipants.forEach(function(participantData) {
             var remodelContentList = {};
-            var keyList = Object.keys(participantData); //separa as chaves
+            var keyList = Object.keys(participantData);
 
-            keyList.shift(); // exclui o primeiro elemento
-
-            var participantValue = participantData.IDELSA; //separa o valor do participante
+            keyList.shift();
+            var participantValue = participantData.IDELSA;
 
             delete participantData.IDELSA;
 
