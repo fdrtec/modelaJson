@@ -1,37 +1,64 @@
+var fs = require('fs');
+var jsonfile = require('jsonfile');
+
 var RemodelJSonService = function() {
+  var self = this;
+  var _emitter = null;
+  var _beginObjectPosition = 0;
+  var _endObjectPosition = false;
+  var _data = '';
+  var _json = {};
+  var _dest = {};
 
-    var self = this;
-    self.remodelJson = remodelJson;
+  self.remodelJson = remodelJson;
 
-    function printer(finalJson, dest) {
-        var jsonfile = require('jsonfile');
-        jsonfile.writeFileSync(dest, finalJson);
+  function remodelJson(src, dest) {
+    _dest = dest;
+    var readStream = fs.createReadStream(src);
+    readStream.setEncoding('utf8');
+    readStream.on('data', _readData);
+  }
+
+  function _readData(chunk) {
+    _data += chunk.replace(/(\s|\r|\n|\t|\[|\])+/g, '');
+    _data += _data.replace(/(\},)+/g, '}');
+
+    _endObjectPosition = (_beginObjectPosition && _data.search(/}/) > -1) ? _data.search(/}/) : false;
+
+    if (_endObjectPosition) {
+      _parseData();
     }
+  }
 
-    function remodelJson(src, dest) {
-        var originListParticipants = require('./' + src);
+  function _parseData() {
+    var nextParticipantData = _data.substring(_beginObjectPosition, _endObjectPosition);
+    _parseParticipantData(JSON.parse(nextParticipantData));
+    _data = _data.substring(_endObjectPosition + 1);
+  }
 
-        var finalJson = {};
+  function _parseParticipantData(participantData) {
+    var currentParticipant = participantData.IDELSA;
+    _json[currentParticipant] = _applyNewModel(participantData);
+    jsonfile.writeFile(_dest, _json);
+    // console.log('Participante %s processado.', currentParticipant);
+  }
 
-        originListParticipants.forEach(function(participantData) {
-            var remodelContentList = {};
-            var keyList = Object.keys(participantData);
+  function _applyNewModel(participantData) {
+    var participantValue = participantData.IDELSA;
+    delete participantData.IDELSA;
 
-            keyList.shift();
-            var participantValue = participantData.IDELSA;
+    var newModel = {};
+    var variables = Object.keys(participantData);
 
-            delete participantData.IDELSA;
+    variables.map(function(variable) {
+      newModel[variable] = {
+        valor: participantData[variable],
+        label: null
+      };
+    });
 
-            for (var keyParticipant in keyList) {
-                remodelContentList[keyList[keyParticipant]] = {
-                    valor: participantData[keyList[keyParticipant]],
-                    label: null
-                };
-            }
-            finalJson[participantValue] = remodelContentList;
-        });
-        printer(finalJson, dest);
-    }
+    return newModel;
+  }
 };
 
 module.exports = new RemodelJSonService();
