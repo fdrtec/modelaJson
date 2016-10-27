@@ -91,8 +91,7 @@ var RemodelJSonService = function() {
 
         variables.map(function(variable) {
             _newModel[variable] = {
-                valor: participantData[variable],
-                label: null
+                valor: participantData[variable]                
             };
         });
     }
