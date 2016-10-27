@@ -2,63 +2,100 @@ var fs = require('fs');
 var jsonfile = require('jsonfile');
 
 var RemodelJSonService = function() {
-  var self = this;
-  var _emitter = null;
-  var _beginObjectPosition = 0;
-  var _endObjectPosition = false;
-  var _data = '';
-  var _json = {};
-  var _dest = {};
+    var self = this;
+    var _emitter = null;
+    var _beginObjectPosition = 0;
+    var _endObjectPosition = false;
+    var _data = '';
+    var _json = {};
+    var _dest = {};
+    var _newModel = {};
+    var _separator = '';
 
-  self.remodelJson = remodelJson;
+    self.remodelJson = remodelJson;
 
-  function remodelJson(src, dest) {
-    _dest = dest;
-    var readStream = fs.createReadStream(src);
-    readStream.setEncoding('utf8');
-    readStream.on('data', _readData);
-  }
+    function remodelJson(src, dest) {
+        _dest = dest;
 
-  function _readData(chunk) {
-    _data += chunk.replace(/(\s|\r|\n|\t|\[|\])+/g, '');
-    _data += _data.replace(/(\},)+/g, '}');
+        fs.appendFile(_dest, '{', 'utf8', function(err) {
+            if (err) throw err;
+            console.log('Iniciou nova base.');
 
-    _endObjectPosition = (_beginObjectPosition && _data.search(/}/) > -1) ? _data.search(/}/) : false;
-
-    if (_endObjectPosition) {
-      _parseData();
+            var readStream = fs.createReadStream(src);
+            readStream.setEncoding('utf8');
+            readStream.on('data', _readData);
+            readStream.on('end', _readFinalData);
+        });
     }
-  }
 
-  function _parseData() {
-    var nextParticipantData = _data.substring(_beginObjectPosition, _endObjectPosition);
-    _parseParticipantData(JSON.parse(nextParticipantData));
-    _data = _data.substring(_endObjectPosition + 1);
-  }
 
-  function _parseParticipantData(participantData) {
-    var currentParticipant = participantData.IDELSA;
-    _json[currentParticipant] = _applyNewModel(participantData);
-    jsonfile.writeFile(_dest, _json);
-    // console.log('Participante %s processado.', currentParticipant);
-  }
+    function _readData(chunk) {
+        if (chunk) {
+            _prepareData(chunk);
+        }
 
-  function _applyNewModel(participantData) {
-    var participantValue = participantData.IDELSA;
-    delete participantData.IDELSA;
+        _searchEndObjectPosition();
 
-    var newModel = {};
-    var variables = Object.keys(participantData);
+        if (_endObjectPosition) {
+            _parseData();
+            _separator = ',';
+        }
 
-    variables.map(function(variable) {
-      newModel[variable] = {
-        valor: participantData[variable],
-        label: null
-      };
-    });
+    }
 
-    return newModel;
-  }
+
+    function _readFinalData() {
+        do {
+            _searchEndObjectPosition();
+
+            if (_endObjectPosition) {
+                _parseData();
+            }
+        } while (_endObjectPosition);
+
+        fs.appendFile(_dest, '}', 'utf8', function(err) {
+            if (err) throw err;
+            console.log('Fechou nova base.');
+        });
+    }
+
+    function _prepareData(chunk) {
+        _data += chunk.replace(/(\s|\r|\n|\t|\[|\])+/g, '').replace(/(\},)+/g, '}');
+    }
+
+    function _searchEndObjectPosition() {
+        var position = _data.search(/}/);
+        _endObjectPosition = (position > -1) ? position + 1 : false;
+    }
+
+    function _parseData() {
+        _parseParticipantData(JSON.parse(_data.substr(_beginObjectPosition, _endObjectPosition)));
+        _data = _data.substr(_endObjectPosition);
+    }
+
+    function _parseParticipantData(participantData) {
+        var currentParticipant = participantData.IDELSA;
+        _applyNewModel(participantData);
+
+        fs.appendFile(_dest, _separator + '"' + currentParticipant + '":' + JSON.stringify(_newModel), 'utf8', function(err) {
+            if (err) throw err;
+        });
+
+        console.log('Participante %s processado.', currentParticipant);
+    }
+
+    function _applyNewModel(participantData) {
+        var participantValue = participantData.IDELSA;
+        delete participantData.IDELSA;
+        var variables = Object.keys(participantData);
+
+        variables.map(function(variable) {
+            _newModel[variable] = {
+                valor: participantData[variable],
+                label: null
+            };
+        });
+    }
 };
 
 module.exports = new RemodelJSonService();
